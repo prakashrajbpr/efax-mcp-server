@@ -1,0 +1,76 @@
+{
+  "name": "efax-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for converting eFax documents (PDF, TIFF, CCD XML) to JSON format",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "npm run build && node --test tests/server.test.js",
+    "clean": "rm -rf dist",
+    "lint": "echo 'Linting not configured yet'",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "efax",
+    "document-conversion",
+    "pdf",
+    "tiff",
+    "xml",
+    "json",
+    "ocr"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "@google-cloud/vision": "^5.3.3",
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "axios": "^1.11.0",
+    "chalk": "^5.5.0",
+    "chalknpm": "^1.0.1",
+    "commander": "^14.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonrepair": "^3.13.0",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.2.0",
+    "sharp": "^0.33.0",
+    "tesseract.js": "^5.0.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/commander": "^2.12.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/google-cloud__storage": "^1.7.2",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^20.19.9",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/xml2js": "^0.4.11",
+    "ts-node": "^10.9.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/efax-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/efax-mcp-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/efax-mcp-server#readme"
+}

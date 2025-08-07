@@ -1,0 +1,12 @@
+{
+  "method": "tools/call",
+  "params": {
+    "name": "convert_efax_document",
+    "arguments": {
+      "filePath": "tests/test-files/Filled_Sample 1.pdf",
+      "performOCR": true,
+      "ocrLanguage": "eng",
+      "extractMetadata": true
+    }
+  }
+}

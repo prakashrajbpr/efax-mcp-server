@@ -1,0 +1,3971 @@
+Folder PATH listing for volume OS
+Volume serial number is 26E9-8BB9
+C:.
+¦   #
+¦   .env
+¦   .gitignore
+¦   .gitignoregit
+¦   .npmignore
+¦   bfg-1.14.0.jar
+¦   fix-imports.cjs
+¦   gcp-key.json
+¦   import.meta.url
+¦   LICENSE
+¦   package-lock.json
+¦   package.json
+¦   README.md
+¦   send-pdf-request.cjs
+¦   structure.txt
+¦   test-request.json
+¦   tsconfig.json
+¦   
++---.vscode
+¦       settings.json
+¦       
++---bin
++---dist
+¦   ¦   server.d.ts.map
+¦   ¦   
+¦   +---cloud
+¦   +---fhir
+¦   +---llm
+¦   ¦       mapToFHIR.ts
+¦   ¦       
+¦   +---middleware
+¦   +---processors
+¦   ¦       pdf-processor.d.ts.map
+¦   ¦       tiff-processor.d.ts.map
+¦   ¦       xml-processor.d.ts.map
+¦   ¦       
+¦   +---routes
+¦   +---tests
+¦   +---types
+¦   ¦       index.d.ts.map
+¦   ¦       
+¦   +---utils
++---docs
+¦       api.md
+¦       
++---node_modules
+¦   ¦   .package-lock.json
+¦   ¦   
+¦   +---.bin
+¦   ¦       acorn
+¦   ¦       acorn.cmd
+¦   ¦       acorn.ps1
+¦   ¦       esbuild
+¦   ¦       esbuild.cmd
+¦   ¦       esbuild.ps1
+¦   ¦       fxparser
+¦   ¦       fxparser.cmd
+¦   ¦       fxparser.ps1
+¦   ¦       jsonrepair
+¦   ¦       jsonrepair.cmd
+¦   ¦       jsonrepair.ps1
+¦   ¦       mime
+¦   ¦       mime.cmd
+¦   ¦       mime.ps1
+¦   ¦       mkdirp
+¦   ¦       mkdirp.cmd
+¦   ¦       mkdirp.ps1
+¦   ¦       node-which
+¦   ¦       node-which.cmd
+¦   ¦       node-which.ps1
+¦   ¦       opencollective-postinstall
+¦   ¦       opencollective-postinstall.cmd
+¦   ¦       opencollective-postinstall.ps1
+¦   ¦       proto-loader-gen-types
+¦   ¦       proto-loader-gen-types.cmd
+¦   ¦       proto-loader-gen-types.ps1
+¦   ¦       semver
+¦   ¦       semver.cmd
+¦   ¦       semver.ps1
+¦   ¦       ts-node
+¦   ¦       ts-node-cwd
+¦   ¦       ts-node-cwd.cmd
+¦   ¦       ts-node-cwd.ps1
+¦   ¦       ts-node-esm
+¦   ¦       ts-node-esm.cmd
+¦   ¦       ts-node-esm.ps1
+¦   ¦       ts-node-script
+¦   ¦       ts-node-script.cmd
+¦   ¦       ts-node-script.ps1
+¦   ¦       ts-node-transpile-only
+¦   ¦       ts-node-transpile-only.cmd
+¦   ¦       ts-node-transpile-only.ps1
+¦   ¦       ts-node.cmd
+¦   ¦       ts-node.ps1
+¦   ¦       ts-script
+¦   ¦       ts-script.cmd
+¦   ¦       ts-script.ps1
+¦   ¦       tsc
+¦   ¦       tsc.cmd
+¦   ¦       tsc.ps1
+¦   ¦       tsserver
+¦   ¦       tsserver.cmd
+¦   ¦       tsserver.ps1
+¦   ¦       tsx
+¦   ¦       tsx.cmd
+¦   ¦       tsx.ps1
+¦   ¦       uuid
+¦   ¦       uuid.cmd
+¦   ¦       uuid.ps1
+¦   ¦       
+¦   +---@cspotcode
+¦   ¦   +---source-map-support
+¦   ¦           LICENSE.md
+¦   ¦           package.json
+¦   ¦           README.md
+¦   ¦           
+¦   +---@emnapi
+¦   +---@esbuild
+¦   ¦   +---win32-x64
+¦   ¦           esbuild.exe
+¦   ¦           package.json
+¦   ¦           README.md
+¦   ¦           
+¦   +---@google-cloud
+¦   ¦   +---paginator
+¦   ¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---build
+¦   ¦   ¦       +---src
+¦   ¦   +---projectify
+¦   ¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---build
+¦   ¦   ¦       +---src
+¦   ¦   +---promisify
+¦   ¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---build
+¦   ¦   ¦       +---src
+¦   ¦   +---storage
+¦   ¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---build
+¦   ¦   ¦   ¦   +---cjs
+¦   ¦   ¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦       ¦   package-json-helper.cjs
+¦   ¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦   ¦       +---nodejs-common
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦       +---src
+¦   ¦   ¦   ¦           ¦   package-json-helper.cjs
+¦   ¦   ¦   ¦           ¦   
+¦   ¦   ¦   ¦           +---nodejs-common
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---@google-cloud
+¦   ¦   ¦       ¦   +---promisify
+¦   ¦   ¦       ¦       ¦   CHANGELOG.md
+¦   ¦   ¦       ¦       ¦   LICENSE
+¦   ¦   ¦       ¦       ¦   package.json
+¦   ¦   ¦       ¦       ¦   README.md
+¦   ¦   ¦       ¦       ¦   
+¦   ¦   ¦       ¦       +---build
+¦   ¦   ¦       ¦           +---src
+¦   ¦   ¦       +---agent-base
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   README.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---dist
+¦   ¦   ¦       ¦   ¦   +---src
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦           index.ts
+¦   ¦   ¦       ¦           promisify.ts
+¦   ¦   ¦       ¦           
+¦   ¦   ¦       +---debug
+¦   ¦   ¦       ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   README.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       +---gaxios
+¦   ¦   ¦       ¦   ¦   CHANGELOG.md
+¦   ¦   ¦       ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   README.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---build
+¦   ¦   ¦       ¦   ¦   +---src
+¦   ¦   ¦       ¦   +---node_modules
+¦   ¦   ¦       ¦       +---.bin
+¦   ¦   ¦       ¦       ¦       uuid
+¦   ¦   ¦       ¦       ¦       uuid.cmd
+¦   ¦   ¦       ¦       ¦       uuid.ps1
+¦   ¦   ¦       ¦       ¦       
+¦   ¦   ¦       ¦       +---uuid
+¦   ¦   ¦       ¦           ¦   CHANGELOG.md
+¦   ¦   ¦       ¦           ¦   CONTRIBUTING.md
+¦   ¦   ¦       ¦           ¦   LICENSE.md
+¦   ¦   ¦       ¦           ¦   package.json
+¦   ¦   ¦       ¦           ¦   README.md
+¦   ¦   ¦       ¦           ¦   wrapper.mjs
+¦   ¦   ¦       ¦           ¦   
+¦   ¦   ¦       ¦           +---dist
+¦   ¦   ¦       ¦               +---bin
+¦   ¦   ¦       ¦               ¦       uuid
+¦   ¦   ¦       ¦               ¦       
+¦   ¦   ¦       ¦               +---commonjs-browser
+¦   ¦   ¦       ¦               +---esm-browser
+¦   ¦   ¦       ¦               +---esm-node
+¦   ¦   ¦       +---gcp-metadata
+¦   ¦   ¦       ¦   ¦   CHANGELOG.md
+¦   ¦   ¦       ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   README.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---build
+¦   ¦   ¦       ¦       +---src
+¦   ¦   ¦       +---google-auth-library
+¦   ¦   ¦       ¦   ¦   CHANGELOG.md
+¦   ¦   ¦       ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   README.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---build
+¦   ¦   ¦       ¦       +---src
+¦   ¦   ¦       ¦           +---auth
+¦   ¦   ¦       ¦           +---crypto
+¦   ¦   ¦       ¦               +---browser
+¦   ¦   ¦       ¦               +---node
+¦   ¦   ¦       +---google-logging-utils
+¦   ¦   ¦       ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---build
+¦   ¦   ¦       ¦       +---src
+¦   ¦   ¦       +---gtoken
+¦   ¦   ¦       ¦   ¦   CHANGELOG.md
+¦   ¦   ¦       ¦   ¦   LICENSE
+¦   ¦   ¦       ¦   ¦   package.json
+¦   ¦   ¦       ¦   ¦   README.md
+¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦       ¦   +---build
+¦   ¦   ¦       ¦       +---src
+¦   ¦   ¦       +---retry-request
+¦   ¦   ¦       ¦       CHANGELOG.md
+¦   ¦   ¦       ¦       license
+¦   ¦   ¦       ¦       package.json
+¦   ¦   ¦       ¦       readme.md
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---teeny-request
+¦   ¦   ¦           ¦   CHANGELOG.md
+¦   ¦   ¦           ¦   LICENSE
+¦   ¦   ¦           ¦   package.json
+¦   ¦   ¦           ¦   README.md
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---build
+¦   ¦   ¦           ¦   +---src
+¦   ¦   ¦           +---node_modules
+¦   ¦   ¦               +---.bin
+¦   ¦   ¦               ¦       uuid
+¦   ¦   ¦               ¦       uuid.cmd
+¦   ¦   ¦               ¦       uuid.ps1
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---https-proxy-agent
+¦   ¦   ¦               ¦   ¦   package.json
+¦   ¦   ¦               ¦   ¦   README.md
+¦   ¦   ¦               ¦   ¦   
+¦   ¦   ¦               ¦   +---dist
+¦   ¦   ¦               +---uuid
+¦   ¦   ¦                   ¦   CHANGELOG.md
+¦   ¦   ¦                   ¦   CONTRIBUTING.md
+¦   ¦   ¦                   ¦   LICENSE.md
+¦   ¦   ¦                   ¦   package.json
+¦   ¦   ¦                   ¦   README.md
+¦   ¦   ¦                   ¦   wrapper.mjs
+¦   ¦   ¦                   ¦   
+¦   ¦   ¦                   +---dist
+¦   ¦   ¦                       +---bin
+¦   ¦   ¦                       ¦       uuid
+¦   ¦   ¦                       ¦       
+¦   ¦   ¦                       +---commonjs-browser
+¦   ¦   ¦                       +---esm-browser
+¦   ¦   ¦                       +---esm-node
+¦   ¦   +---vision
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---build
+¦   ¦           +---protos
+¦   ¦           ¦   ¦   protos.json
+¦   ¦           ¦   ¦   
+¦   ¦           ¦   +---google
+¦   ¦           ¦       +---cloud
+¦   ¦           ¦           ¦   common_resources.proto
+¦   ¦           ¦           ¦   
+¦   ¦           ¦           +---vision
+¦   ¦           ¦               +---v1
+¦   ¦           ¦               ¦       geometry.proto
+¦   ¦           ¦               ¦       image_annotator.proto
+¦   ¦           ¦               ¦       product_search.proto
+¦   ¦           ¦               ¦       product_search_service.proto
+¦   ¦           ¦               ¦       text_annotation.proto
+¦   ¦           ¦               ¦       web_detection.proto
+¦   ¦           ¦               ¦       
+¦   ¦           ¦               +---v1p1beta1
+¦   ¦           ¦               ¦       geometry.proto
+¦   ¦           ¦               ¦       image_annotator.proto
+¦   ¦           ¦               ¦       text_annotation.proto
+¦   ¦           ¦               ¦       web_detection.proto
+¦   ¦           ¦               ¦       
+¦   ¦           ¦               +---v1p2beta1
+¦   ¦           ¦               ¦       geometry.proto
+¦   ¦           ¦               ¦       image_annotator.proto
+¦   ¦           ¦               ¦       text_annotation.proto
+¦   ¦           ¦               ¦       web_detection.proto
+¦   ¦           ¦               ¦       
+¦   ¦           ¦               +---v1p3beta1
+¦   ¦           ¦               ¦       geometry.proto
+¦   ¦           ¦               ¦       image_annotator.proto
+¦   ¦           ¦               ¦       product_search.proto
+¦   ¦           ¦               ¦       product_search_service.proto
+¦   ¦           ¦               ¦       text_annotation.proto
+¦   ¦           ¦               ¦       web_detection.proto
+¦   ¦           ¦               ¦       
+¦   ¦           ¦               +---v1p4beta1
+¦   ¦           ¦                       face.proto
+¦   ¦           ¦                       geometry.proto
+¦   ¦           ¦                       image_annotator.proto
+¦   ¦           ¦                       product_search.proto
+¦   ¦           ¦                       product_search_service.proto
+¦   ¦           ¦                       text_annotation.proto
+¦   ¦           ¦                       web_detection.proto
+¦   ¦           ¦                       
+¦   ¦           +---src
+¦   ¦               +---v1
+¦   ¦               ¦       gapic_metadata.json
+¦   ¦               ¦       image_annotator_client_config.json
+¦   ¦               ¦       image_annotator_proto_list.json
+¦   ¦               ¦       product_search_client_config.json
+¦   ¦               ¦       product_search_proto_list.json
+¦   ¦               ¦       
+¦   ¦               +---v1p1beta1
+¦   ¦               ¦       gapic_metadata.json
+¦   ¦               ¦       image_annotator_client_config.json
+¦   ¦               ¦       image_annotator_proto_list.json
+¦   ¦               ¦       
+¦   ¦               +---v1p2beta1
+¦   ¦               ¦       gapic_metadata.json
+¦   ¦               ¦       image_annotator_client_config.json
+¦   ¦               ¦       image_annotator_proto_list.json
+¦   ¦               ¦       
+¦   ¦               +---v1p3beta1
+¦   ¦               ¦       gapic_metadata.json
+¦   ¦               ¦       image_annotator_client_config.json
+¦   ¦               ¦       image_annotator_proto_list.json
+¦   ¦               ¦       product_search_client_config.json
+¦   ¦               ¦       product_search_proto_list.json
+¦   ¦               ¦       
+¦   ¦               +---v1p4beta1
+¦   ¦                       gapic_metadata.json
+¦   ¦                       image_annotator_client_config.json
+¦   ¦                       image_annotator_proto_list.json
+¦   ¦                       product_search_client_config.json
+¦   ¦                       product_search_proto_list.json
+¦   ¦                       
+¦   +---@grpc
+¦   ¦   +---grpc-js
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---build
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       +---generated
+¦   ¦   ¦   ¦           +---google
+¦   ¦   ¦   ¦           ¦   +---protobuf
+¦   ¦   ¦   ¦           +---grpc
+¦   ¦   ¦   ¦               +---channelz
+¦   ¦   ¦   ¦                   +---v1
+¦   ¦   ¦   +---proto
+¦   ¦   ¦   ¦       channelz.proto
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---src
+¦   ¦   ¦       ¦   admin.ts
+¦   ¦   ¦       ¦   backoff-timeout.ts
+¦   ¦   ¦       ¦   call-credentials.ts
+¦   ¦   ¦       ¦   call-interface.ts
+¦   ¦   ¦       ¦   call-number.ts
+¦   ¦   ¦       ¦   call.ts
+¦   ¦   ¦       ¦   certificate-provider.ts
+¦   ¦   ¦       ¦   channel-credentials.ts
+¦   ¦   ¦       ¦   channel-options.ts
+¦   ¦   ¦       ¦   channel.ts
+¦   ¦   ¦       ¦   channelz.ts
+¦   ¦   ¦       ¦   client-interceptors.ts
+¦   ¦   ¦       ¦   client.ts
+¦   ¦   ¦       ¦   compression-algorithms.ts
+¦   ¦   ¦       ¦   compression-filter.ts
+¦   ¦   ¦       ¦   connectivity-state.ts
+¦   ¦   ¦       ¦   constants.ts
+¦   ¦   ¦       ¦   control-plane-status.ts
+¦   ¦   ¦       ¦   deadline.ts
+¦   ¦   ¦       ¦   duration.ts
+¦   ¦   ¦       ¦   environment.ts
+¦   ¦   ¦       ¦   error.ts
+¦   ¦   ¦       ¦   events.ts
+¦   ¦   ¦       ¦   experimental.ts
+¦   ¦   ¦       ¦   filter-stack.ts
+¦   ¦   ¦       ¦   filter.ts
+¦   ¦   ¦       ¦   http_proxy.ts
+¦   ¦   ¦       ¦   index.ts
+¦   ¦   ¦       ¦   internal-channel.ts
+¦   ¦   ¦       ¦   load-balancer-child-handler.ts
+¦   ¦   ¦       ¦   load-balancer-outlier-detection.ts
+¦   ¦   ¦       ¦   load-balancer-pick-first.ts
+¦   ¦   ¦       ¦   load-balancer-round-robin.ts
+¦   ¦   ¦       ¦   load-balancer.ts
+¦   ¦   ¦       ¦   load-balancing-call.ts
+¦   ¦   ¦       ¦   logging.ts
+¦   ¦   ¦       ¦   make-client.ts
+¦   ¦   ¦       ¦   metadata.ts
+¦   ¦   ¦       ¦   object-stream.ts
+¦   ¦   ¦       ¦   picker.ts
+¦   ¦   ¦       ¦   resolver-dns.ts
+¦   ¦   ¦       ¦   resolver-ip.ts
+¦   ¦   ¦       ¦   resolver-uds.ts
+¦   ¦   ¦       ¦   resolver.ts
+¦   ¦   ¦       ¦   resolving-call.ts
+¦   ¦   ¦       ¦   resolving-load-balancer.ts
+¦   ¦   ¦       ¦   retrying-call.ts
+¦   ¦   ¦       ¦   server-call.ts
+¦   ¦   ¦       ¦   server-credentials.ts
+¦   ¦   ¦       ¦   server-interceptors.ts
+¦   ¦   ¦       ¦   server.ts
+¦   ¦   ¦       ¦   service-config.ts
+¦   ¦   ¦       ¦   status-builder.ts
+¦   ¦   ¦       ¦   stream-decoder.ts
+¦   ¦   ¦       ¦   subchannel-address.ts
+¦   ¦   ¦       ¦   subchannel-call.ts
+¦   ¦   ¦       ¦   subchannel-interface.ts
+¦   ¦   ¦       ¦   subchannel-pool.ts
+¦   ¦   ¦       ¦   subchannel.ts
+¦   ¦   ¦       ¦   tls-helpers.ts
+¦   ¦   ¦       ¦   transport.ts
+¦   ¦   ¦       ¦   uri-parser.ts
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---generated
+¦   ¦   ¦           ¦   channelz.ts
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---google
+¦   ¦   ¦           ¦   +---protobuf
+¦   ¦   ¦           ¦           Any.ts
+¦   ¦   ¦           ¦           BoolValue.ts
+¦   ¦   ¦           ¦           BytesValue.ts
+¦   ¦   ¦           ¦           DoubleValue.ts
+¦   ¦   ¦           ¦           Duration.ts
+¦   ¦   ¦           ¦           FloatValue.ts
+¦   ¦   ¦           ¦           Int32Value.ts
+¦   ¦   ¦           ¦           Int64Value.ts
+¦   ¦   ¦           ¦           StringValue.ts
+¦   ¦   ¦           ¦           Timestamp.ts
+¦   ¦   ¦           ¦           UInt32Value.ts
+¦   ¦   ¦           ¦           UInt64Value.ts
+¦   ¦   ¦           ¦           
+¦   ¦   ¦           +---grpc
+¦   ¦   ¦               +---channelz
+¦   ¦   ¦                   +---v1
+¦   ¦   ¦                           Address.ts
+¦   ¦   ¦                           Channel.ts
+¦   ¦   ¦                           ChannelConnectivityState.ts
+¦   ¦   ¦                           ChannelData.ts
+¦   ¦   ¦                           ChannelRef.ts
+¦   ¦   ¦                           ChannelTrace.ts
+¦   ¦   ¦                           ChannelTraceEvent.ts
+¦   ¦   ¦                           Channelz.ts
+¦   ¦   ¦                           GetChannelRequest.ts
+¦   ¦   ¦                           GetChannelResponse.ts
+¦   ¦   ¦                           GetServerRequest.ts
+¦   ¦   ¦                           GetServerResponse.ts
+¦   ¦   ¦                           GetServerSocketsRequest.ts
+¦   ¦   ¦                           GetServerSocketsResponse.ts
+¦   ¦   ¦                           GetServersRequest.ts
+¦   ¦   ¦                           GetServersResponse.ts
+¦   ¦   ¦                           GetSocketRequest.ts
+¦   ¦   ¦                           GetSocketResponse.ts
+¦   ¦   ¦                           GetSubchannelRequest.ts
+¦   ¦   ¦                           GetSubchannelResponse.ts
+¦   ¦   ¦                           GetTopChannelsRequest.ts
+¦   ¦   ¦                           GetTopChannelsResponse.ts
+¦   ¦   ¦                           Security.ts
+¦   ¦   ¦                           Server.ts
+¦   ¦   ¦                           ServerData.ts
+¦   ¦   ¦                           ServerRef.ts
+¦   ¦   ¦                           Socket.ts
+¦   ¦   ¦                           SocketData.ts
+¦   ¦   ¦                           SocketOption.ts
+¦   ¦   ¦                           SocketOptionLinger.ts
+¦   ¦   ¦                           SocketOptionTcpInfo.ts
+¦   ¦   ¦                           SocketOptionTimeout.ts
+¦   ¦   ¦                           SocketRef.ts
+¦   ¦   ¦                           Subchannel.ts
+¦   ¦   ¦                           SubchannelRef.ts
+¦   ¦   ¦                           
+¦   ¦   +---proto-loader
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---build
+¦   ¦           +---bin
+¦   ¦           +---src
+¦   +---@img
+¦   ¦   +---sharp-win32-x64
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   versions.json
+¦   ¦       ¦   
+¦   ¦       +---lib
+¦   ¦               libvips-42.dll
+¦   ¦               libvips-cpp.dll
+¦   ¦               sharp-win32-x64.node
+¦   ¦               
+¦   +---@jridgewell
+¦   ¦   +---resolve-uri
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       ¦   resolve-uri.mjs
+¦   ¦   ¦       ¦   resolve-uri.mjs.map
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---types
+¦   ¦   +---sourcemap-codec
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       sourcemap-codec.mjs
+¦   ¦   ¦   ¦       sourcemap-codec.mjs.map
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       scopes.ts
+¦   ¦   ¦   ¦       sourcemap-codec.ts
+¦   ¦   ¦   ¦       strings.ts
+¦   ¦   ¦   ¦       vlq.ts
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---types
+¦   ¦   ¦           scopes.d.cts
+¦   ¦   ¦           scopes.d.cts.map
+¦   ¦   ¦           scopes.d.mts
+¦   ¦   ¦           scopes.d.mts.map
+¦   ¦   ¦           sourcemap-codec.d.cts
+¦   ¦   ¦           sourcemap-codec.d.cts.map
+¦   ¦   ¦           sourcemap-codec.d.mts
+¦   ¦   ¦           sourcemap-codec.d.mts.map
+¦   ¦   ¦           strings.d.cts
+¦   ¦   ¦           strings.d.cts.map
+¦   ¦   ¦           strings.d.mts
+¦   ¦   ¦           strings.d.mts.map
+¦   ¦   ¦           vlq.d.cts
+¦   ¦   ¦           vlq.d.cts.map
+¦   ¦   ¦           vlq.d.mts
+¦   ¦   ¦           vlq.d.mts.map
+¦   ¦   ¦           
+¦   ¦   +---trace-mapping
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---dist
+¦   ¦           ¦   trace-mapping.mjs
+¦   ¦           ¦   trace-mapping.mjs.map
+¦   ¦           ¦   
+¦   ¦           +---types
+¦   +---@js-sdsl
+¦   ¦   +---ordered-map
+¦   ¦       ¦   CHANGELOG.md
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   README.zh-CN.md
+¦   ¦       ¦   
+¦   ¦       +---dist
+¦   ¦           +---cjs
+¦   ¦           +---esm
+¦   ¦           +---umd
+¦   +---@modelcontextprotocol
+¦   ¦   +---sdk
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---dist
+¦   ¦           ¦   cli.d.ts.map
+¦   ¦           ¦   types.d.ts.map
+¦   ¦           ¦   
+¦   ¦           +---client
+¦   ¦           ¦       index.d.ts.map
+¦   ¦           ¦       index.test.d.ts.map
+¦   ¦           ¦       sse.d.ts.map
+¦   ¦           ¦       stdio.d.ts.map
+¦   ¦           ¦       stdio.test.d.ts.map
+¦   ¦           ¦       websocket.d.ts.map
+¦   ¦           ¦       
+¦   ¦           +---server
+¦   ¦           ¦       index.d.ts.map
+¦   ¦           ¦       index.test.d.ts.map
+¦   ¦           ¦       sse.d.ts.map
+¦   ¦           ¦       stdio.d.ts.map
+¦   ¦           ¦       stdio.test.d.ts.map
+¦   ¦           ¦       
+¦   ¦           +---shared
+¦   ¦                   protocol.d.ts.map
+¦   ¦                   stdio.d.ts.map
+¦   ¦                   stdio.test.d.ts.map
+¦   ¦                   transport.d.ts.map
+¦   ¦                   
+¦   +---@protobufjs
+¦   ¦   +---aspromise
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---base64
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---codegen
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---eventemitter
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---fetch
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---float
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---bench
+¦   ¦   ¦   +---tests
+¦   ¦   +---inquire
+¦   ¦   ¦   ¦   .npmignore
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   ¦       +---data
+¦   ¦   +---path
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---pool
+¦   ¦   ¦   ¦   .npmignore
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---tests
+¦   ¦   +---utf8
+¦   ¦       ¦   .npmignore
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---tests
+¦   ¦           +---data
+¦   ¦                   utf8.txt
+¦   ¦                   
+¦   +---@tootallnate
+¦   ¦   +---once
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---dist
+¦   +---@tsconfig
+¦   ¦   +---node10
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---node12
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---node14
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---node16
+¦   ¦           LICENSE
+¦   ¦           package.json
+¦   ¦           README.md
+¦   ¦           tsconfig.json
+¦   ¦           
+¦   +---@types
+¦   ¦   +---axios
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       types-metadata.json
+¦   ¦   ¦       
+¦   ¦   +---body-parser
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---caseless
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---commander
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---connect
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---cors
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---express
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---express-serve-static-core
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---google-cloud__storage
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---http-errors
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---mime
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---morgan
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---multer
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---node
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---assert
+¦   ¦   ¦   +---compatibility
+¦   ¦   ¦   +---dns
+¦   ¦   ¦   +---fs
+¦   ¦   ¦   +---readline
+¦   ¦   ¦   +---stream
+¦   ¦   ¦   +---timers
+¦   ¦   ¦   +---ts5.6
+¦   ¦   +---pdf-parse
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---qs
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---range-parser
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---request
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---send
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---serve-static
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---tough-cookie
+¦   ¦   ¦       LICENSE
+¦   ¦   ¦       package.json
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---xml2js
+¦   ¦       ¦   LICENSE
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---lib
+¦   +---abort-controller
+¦   ¦   ¦   browser.mjs
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.mjs
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           abort-controller.mjs
+¦   ¦           abort-controller.mjs.map
+¦   ¦           
+¦   +---accepts
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   ¦       +---mime-db
+¦   ¦       ¦       db.json
+¦   ¦       ¦       HISTORY.md
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       package.json
+¦   ¦       ¦       README.md
+¦   ¦       ¦       
+¦   ¦       +---mime-types
+¦   ¦               HISTORY.md
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---acorn
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦       acorn
+¦   ¦   ¦       
+¦   ¦   +---dist
+¦   ¦           acorn.d.mts
+¦   ¦           acorn.mjs
+¦   ¦           
+¦   +---acorn-walk
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           walk.d.mts
+¦   ¦           walk.mjs
+¦   ¦           
+¦   +---agent-base
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           helpers.d.ts.map
+¦   ¦           index.d.ts.map
+¦   ¦           
+¦   +---ansi-regex
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---ansi-styles
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---append-field
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---arg
+¦   ¦       LICENSE.md
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---array-parallel
+¦   ¦       .npmignore
+¦   ¦       .travis.yml
+¦   ¦       component.json
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---array-series
+¦   ¦       .npmignore
+¦   ¦       .travis.yml
+¦   ¦       component.json
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---arrify
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---async-retry
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---asynckit
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---axios
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.d.cts
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   MIGRATION_GUIDE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   +---browser
+¦   ¦   ¦   ¦       axios.cjs
+¦   ¦   ¦   ¦       axios.cjs.map
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---node
+¦   ¦   ¦           axios.cjs
+¦   ¦   ¦           axios.cjs.map
+¦   ¦   ¦           
+¦   ¦   +---lib
+¦   ¦   ¦   +---adapters
+¦   ¦   ¦   ¦       README.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---cancel
+¦   ¦   ¦   +---core
+¦   ¦   ¦   ¦       README.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---defaults
+¦   ¦   ¦   +---env
+¦   ¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---classes
+¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦       README.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---platform
+¦   ¦   ¦       +---browser
+¦   ¦   ¦       ¦   +---classes
+¦   ¦   ¦       +---common
+¦   ¦   ¦       +---node
+¦   ¦   ¦           +---classes
+¦   ¦   +---node_modules
+¦   ¦       +---form-data
+¦   ¦           ¦   CHANGELOG.md
+¦   ¦           ¦   License
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---lib
+¦   +---base64-js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---basic-auth
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   ¦       +---safe-buffer
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---bmp-js
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   bmp-js.iml
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦           bit1.bmp
+¦   ¦           bit16_565.bmp
+¦   ¦           bit16_565_out.bmp
+¦   ¦           bit16_a444.bmp
+¦   ¦           bit16_a444_out.bmp
+¦   ¦           bit16_a555.bmp
+¦   ¦           bit16_a555_out.bmp
+¦   ¦           bit16_x444.bmp
+¦   ¦           bit16_x444_out.bmp
+¦   ¦           bit16_x555.bmp
+¦   ¦           bit16_x555_out.bmp
+¦   ¦           bit1_out.bmp
+¦   ¦           bit24.bmp
+¦   ¦           bit24_out.bmp
+¦   ¦           bit32.bmp
+¦   ¦           bit32_alpha.bmp
+¦   ¦           bit32_alpha_out.bmp
+¦   ¦           bit32_out.bmp
+¦   ¦           bit4.bmp
+¦   ¦           bit4_out.bmp
+¦   ¦           bit4_RLE.bmp
+¦   ¦           bit4_RLE_out.bmp
+¦   ¦           bit8.bmp
+¦   ¦           bit8_out.bmp
+¦   ¦           bit8_RLE.bmp
+¦   ¦           bit8_RLE_out.bmp
+¦   ¦           
+¦   +---body-parser
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   ¦   +---types
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦           ¦   LICENSE
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---src
+¦   +---buffer-equal-constant-time
+¦   ¦       .npmignore
+¦   ¦       .travis.yml
+¦   ¦       LICENSE.txt
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---buffer-from
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---busboy
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   ¦           ci.yml
+¦   ¦   ¦           lint.yml
+¦   ¦   ¦           
+¦   ¦   +---bench
+¦   ¦   +---lib
+¦   ¦   ¦   +---types
+¦   ¦   +---test
+¦   +---bytes
+¦   ¦       History.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       Readme.md
+¦   ¦       
+¦   +---call-bind-apply-helpers
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---call-bound
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---chalk
+¦   ¦   ¦   license
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   
+¦   ¦   +---source
+¦   ¦       +---vendor
+¦   ¦           +---ansi-styles
+¦   ¦           +---supports-color
+¦   +---chalknpm
+¦   ¦       package.json
+¦   ¦       
+¦   +---cliui
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.mjs
+¦   ¦   ¦   LICENSE.txt
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       ¦   index.cjs
+¦   ¦       ¦   index.d.cts
+¦   ¦       ¦   
+¦   ¦       +---lib
+¦   +---color
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---color-convert
+¦   ¦       CHANGELOG.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---color-name
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---color-string
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---combined-stream
+¦   ¦   ¦   License
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   yarn.lock
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---commander
+¦   ¦   ¦   esm.mjs
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package-support.json
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---typings
+¦   ¦           esm.d.mts
+¦   ¦           
+¦   +---concat-stream
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---content-disposition
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---content-type
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---cookie
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       SECURITY.md
+¦   ¦       
+¦   +---cookie-signature
+¦   ¦       History.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       Readme.md
+¦   ¦       
+¦   +---cors
+¦   ¦   ¦   CONTRIBUTING.md
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---create-require
+¦   ¦       CHANGELOG.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---cross-spawn
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦       +---util
+¦   +---data-uri-to-buffer
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   +---src
+¦   ¦           index.ts
+¦   ¦           
+¦   +---debug
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   +---delayed-stream
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   License
+¦   ¦   ¦   Makefile
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---depd
+¦   ¦   ¦   History.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦       +---browser
+¦   +---detect-libc
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---diff
+¦   ¦   ¦   CONTRIBUTING.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   release-notes.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦       +---convert
+¦   ¦       +---diff
+¦   ¦       +---patch
+¦   ¦       +---util
+¦   +---dotenv
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README-es.md
+¦   ¦   ¦   README.md
+¦   ¦   ¦   SECURITY.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---dunder-proto
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---duplexify
+¦   ¦       .travis.yml
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---ecdsa-sig-formatter
+¦   ¦   ¦   CODEOWNERS
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   +---ee-first
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---emoji-regex
+¦   ¦   ¦   LICENSE-MIT.txt
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---es2015
+¦   +---encodeurl
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---end-of-stream
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---es-define-property
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---es-errors
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---es-object-atoms
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---es-set-tostringtag
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   +---esbuild
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦       esbuild
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   +---escalade
+¦   ¦   ¦   index.d.mts
+¦   ¦   ¦   license
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦       index.mjs
+¦   ¦   ¦       
+¦   ¦   +---sync
+¦   ¦           index.d.mts
+¦   ¦           index.mjs
+¦   ¦           
+¦   +---escape-html
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       Readme.md
+¦   ¦       
+¦   +---etag
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---event-target-shim
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           event-target-shim.mjs
+¦   ¦           event-target-shim.mjs.map
+¦   ¦           
+¦   +---express
+¦   ¦   ¦   History.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   ¦   LICENSE
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---src
+¦   ¦       +---mime-db
+¦   ¦       ¦       db.json
+¦   ¦       ¦       HISTORY.md
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       package.json
+¦   ¦       ¦       README.md
+¦   ¦       ¦       
+¦   ¦       +---mime-types
+¦   ¦               HISTORY.md
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---express-rate-limit
+¦   ¦   ¦   license.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           index.cjs
+¦   ¦           index.d.cts
+¦   ¦           index.d.mts
+¦   ¦           index.mjs
+¦   ¦           
+¦   +---extend
+¦   ¦       .editorconfig
+¦   ¦       .eslintrc
+¦   ¦       .jscs.json
+¦   ¦       .travis.yml
+¦   ¦       CHANGELOG.md
+¦   ¦       component.json
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---fast-xml-parser
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   ¦       +---cli
+¦   ¦       +---v5
+¦   ¦       ¦   +---inputSource
+¦   ¦       ¦   +---OutputBuilders
+¦   ¦       ¦   +---valueParsers
+¦   ¦       +---v6
+¦   ¦       ¦   +---inputSource
+¦   ¦       ¦   +---OutputBuilders
+¦   ¦       ¦   +---valueParsers
+¦   ¦       +---xmlbuilder
+¦   ¦       +---xmlparser
+¦   +---fetch-blob
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       streams.cjs
+¦   ¦       
+¦   +---finalhandler
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦           ¦   LICENSE
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---src
+¦   +---follow-redirects
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---form-data
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   License
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---formdata-polyfill
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---forwarded
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---fresh
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---function-bind
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       SECURITY.md
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           .eslintrc
+¦   ¦           
+¦   +---gaxios
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦   ¦   +---cjs
+¦   ¦   ¦   ¦   ¦   tsconfig.cjs.tsbuildinfo
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---browser-test
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦       util.cjs
+¦   ¦   ¦   ¦   ¦       util.cjs.map
+¦   ¦   ¦   ¦   ¦       util.d.cts
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---system-test
+¦   ¦   ¦   ¦   +---test
+¦   ¦   ¦   +---esm
+¦   ¦   ¦       ¦   package.json
+¦   ¦   ¦       ¦   tsconfig.tsbuildinfo
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---browser-test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦       util.cjs
+¦   ¦   ¦       ¦       util.cjs.map
+¦   ¦   ¦       ¦       util.d.cts
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---system-test
+¦   ¦   ¦       +---test
+¦   ¦   +---node_modules
+¦   ¦       +---node-fetch
+¦   ¦           ¦   LICENSE.md
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---@types
+¦   ¦           +---src
+¦   ¦               +---errors
+¦   ¦               +---utils
+¦   +---gcp-metadata
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---src
+¦   +---get-caller-file
+¦   ¦       LICENSE.md
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---get-intrinsic
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---get-proto
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---get-tsconfig
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           index.cjs
+¦   ¦           index.d.cts
+¦   ¦           index.d.mts
+¦   ¦           index.mjs
+¦   ¦           
+¦   +---gm
+¦   ¦   ¦   History.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   ¦           node.js.yml
+¦   ¦   ¦           
+¦   ¦   +---lib
+¦   ¦       +---convenience
+¦   +---google-auth-library
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---src
+¦   ¦           ¦   shared.cjs
+¦   ¦           ¦   shared.d.cts
+¦   ¦           ¦   
+¦   ¦           +---auth
+¦   ¦           +---crypto
+¦   ¦               +---browser
+¦   ¦               +---node
+¦   +---google-gax
+¦   ¦   ¦   package.json
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦   ¦   +---protos
+¦   ¦   ¦   ¦   ¦   compute_operations.json
+¦   ¦   ¦   ¦   ¦   iam_service.json
+¦   ¦   ¦   ¦   ¦   locations.json
+¦   ¦   ¦   ¦   ¦   operations.json
+¦   ¦   ¦   ¦   ¦   status.json
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---google
+¦   ¦   ¦   ¦       +---api
+¦   ¦   ¦   ¦       ¦   ¦   annotations.proto
+¦   ¦   ¦   ¦       ¦   ¦   auth.proto
+¦   ¦   ¦   ¦       ¦   ¦   backend.proto
+¦   ¦   ¦   ¦       ¦   ¦   billing.proto
+¦   ¦   ¦   ¦       ¦   ¦   client.proto
+¦   ¦   ¦   ¦       ¦   ¦   config_change.proto
+¦   ¦   ¦   ¦       ¦   ¦   consumer.proto
+¦   ¦   ¦   ¦       ¦   ¦   context.proto
+¦   ¦   ¦   ¦       ¦   ¦   control.proto
+¦   ¦   ¦   ¦       ¦   ¦   distribution.proto
+¦   ¦   ¦   ¦       ¦   ¦   documentation.proto
+¦   ¦   ¦   ¦       ¦   ¦   endpoint.proto
+¦   ¦   ¦   ¦       ¦   ¦   error_reason.proto
+¦   ¦   ¦   ¦       ¦   ¦   field_behavior.proto
+¦   ¦   ¦   ¦       ¦   ¦   field_info.proto
+¦   ¦   ¦   ¦       ¦   ¦   http.proto
+¦   ¦   ¦   ¦       ¦   ¦   httpbody.proto
+¦   ¦   ¦   ¦       ¦   ¦   label.proto
+¦   ¦   ¦   ¦       ¦   ¦   launch_stage.proto
+¦   ¦   ¦   ¦       ¦   ¦   log.proto
+¦   ¦   ¦   ¦       ¦   ¦   logging.proto
+¦   ¦   ¦   ¦       ¦   ¦   metric.proto
+¦   ¦   ¦   ¦       ¦   ¦   monitored_resource.proto
+¦   ¦   ¦   ¦       ¦   ¦   monitoring.proto
+¦   ¦   ¦   ¦       ¦   ¦   policy.proto
+¦   ¦   ¦   ¦       ¦   ¦   quota.proto
+¦   ¦   ¦   ¦       ¦   ¦   resource.proto
+¦   ¦   ¦   ¦       ¦   ¦   routing.proto
+¦   ¦   ¦   ¦       ¦   ¦   service.proto
+¦   ¦   ¦   ¦       ¦   ¦   source_info.proto
+¦   ¦   ¦   ¦       ¦   ¦   system_parameter.proto
+¦   ¦   ¦   ¦       ¦   ¦   usage.proto
+¦   ¦   ¦   ¦       ¦   ¦   visibility.proto
+¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦       ¦   +---apikeys
+¦   ¦   ¦   ¦       ¦   ¦   +---v2
+¦   ¦   ¦   ¦       ¦   ¦           apikeys.proto
+¦   ¦   ¦   ¦       ¦   ¦           resources.proto
+¦   ¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦   ¦       ¦   +---cloudquotas
+¦   ¦   ¦   ¦       ¦   ¦   +---v1
+¦   ¦   ¦   ¦       ¦   ¦   ¦       cloudquotas.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       resources.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       
+¦   ¦   ¦   ¦       ¦   ¦   +---v1beta
+¦   ¦   ¦   ¦       ¦   ¦           cloudquotas.proto
+¦   ¦   ¦   ¦       ¦   ¦           quota_adjuster_settings.proto
+¦   ¦   ¦   ¦       ¦   ¦           resources.proto
+¦   ¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦   ¦       ¦   +---expr
+¦   ¦   ¦   ¦       ¦   ¦   +---conformance
+¦   ¦   ¦   ¦       ¦   ¦   ¦   +---v1alpha1
+¦   ¦   ¦   ¦       ¦   ¦   ¦           conformance_service.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦           
+¦   ¦   ¦   ¦       ¦   ¦   +---v1alpha1
+¦   ¦   ¦   ¦       ¦   ¦   ¦       checked.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       eval.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       explain.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       syntax.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       value.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       
+¦   ¦   ¦   ¦       ¦   ¦   +---v1beta1
+¦   ¦   ¦   ¦       ¦   ¦           decl.proto
+¦   ¦   ¦   ¦       ¦   ¦           eval.proto
+¦   ¦   ¦   ¦       ¦   ¦           expr.proto
+¦   ¦   ¦   ¦       ¦   ¦           source.proto
+¦   ¦   ¦   ¦       ¦   ¦           value.proto
+¦   ¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦   ¦       ¦   +---servicecontrol
+¦   ¦   ¦   ¦       ¦   ¦   +---v1
+¦   ¦   ¦   ¦       ¦   ¦   ¦       check_error.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       distribution.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       http_request.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       log_entry.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       metric_value.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       operation.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       quota_controller.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       service_controller.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦       
+¦   ¦   ¦   ¦       ¦   ¦   +---v2
+¦   ¦   ¦   ¦       ¦   ¦           service_controller.proto
+¦   ¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦   ¦       ¦   +---servicemanagement
+¦   ¦   ¦   ¦       ¦   ¦   +---v1
+¦   ¦   ¦   ¦       ¦   ¦           resources.proto
+¦   ¦   ¦   ¦       ¦   ¦           servicemanager.proto
+¦   ¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦   ¦       ¦   +---serviceusage
+¦   ¦   ¦   ¦       ¦       +---v1
+¦   ¦   ¦   ¦       ¦       ¦       resources.proto
+¦   ¦   ¦   ¦       ¦       ¦       serviceusage.proto
+¦   ¦   ¦   ¦       ¦       ¦       
+¦   ¦   ¦   ¦       ¦       +---v1beta1
+¦   ¦   ¦   ¦       ¦               resources.proto
+¦   ¦   ¦   ¦       ¦               serviceusage.proto
+¦   ¦   ¦   ¦       ¦               
+¦   ¦   ¦   ¦       +---cloud
+¦   ¦   ¦   ¦       ¦   +---location
+¦   ¦   ¦   ¦       ¦           locations.proto
+¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦       +---iam
+¦   ¦   ¦   ¦       ¦   +---v1
+¦   ¦   ¦   ¦       ¦       ¦   iam_policy.proto
+¦   ¦   ¦   ¦       ¦       ¦   options.proto
+¦   ¦   ¦   ¦       ¦       ¦   policy.proto
+¦   ¦   ¦   ¦       ¦       ¦   resource_policy_member.proto
+¦   ¦   ¦   ¦       ¦       ¦   
+¦   ¦   ¦   ¦       ¦       +---logging
+¦   ¦   ¦   ¦       ¦               audit_data.proto
+¦   ¦   ¦   ¦       ¦               
+¦   ¦   ¦   ¦       +---logging
+¦   ¦   ¦   ¦       ¦   +---type
+¦   ¦   ¦   ¦       ¦           http_request.proto
+¦   ¦   ¦   ¦       ¦           log_severity.proto
+¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦       +---longrunning
+¦   ¦   ¦   ¦       ¦       operations.proto
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---monitoring
+¦   ¦   ¦   ¦       ¦   +---v3
+¦   ¦   ¦   ¦       ¦           alert.proto
+¦   ¦   ¦   ¦       ¦           alert_service.proto
+¦   ¦   ¦   ¦       ¦           common.proto
+¦   ¦   ¦   ¦       ¦           dropped_labels.proto
+¦   ¦   ¦   ¦       ¦           group.proto
+¦   ¦   ¦   ¦       ¦           group_service.proto
+¦   ¦   ¦   ¦       ¦           metric.proto
+¦   ¦   ¦   ¦       ¦           metric_service.proto
+¦   ¦   ¦   ¦       ¦           mutation_record.proto
+¦   ¦   ¦   ¦       ¦           notification.proto
+¦   ¦   ¦   ¦       ¦           notification_service.proto
+¦   ¦   ¦   ¦       ¦           query_service.proto
+¦   ¦   ¦   ¦       ¦           service.proto
+¦   ¦   ¦   ¦       ¦           service_service.proto
+¦   ¦   ¦   ¦       ¦           snooze.proto
+¦   ¦   ¦   ¦       ¦           snooze_service.proto
+¦   ¦   ¦   ¦       ¦           span_context.proto
+¦   ¦   ¦   ¦       ¦           uptime.proto
+¦   ¦   ¦   ¦       ¦           uptime_service.proto
+¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦       +---protobuf
+¦   ¦   ¦   ¦       ¦   ¦   any.proto
+¦   ¦   ¦   ¦       ¦   ¦   api.proto
+¦   ¦   ¦   ¦       ¦   ¦   cpp_features.proto
+¦   ¦   ¦   ¦       ¦   ¦   descriptor.proto
+¦   ¦   ¦   ¦       ¦   ¦   duration.proto
+¦   ¦   ¦   ¦       ¦   ¦   empty.proto
+¦   ¦   ¦   ¦       ¦   ¦   field_mask.proto
+¦   ¦   ¦   ¦       ¦   ¦   late_loaded_option.proto
+¦   ¦   ¦   ¦       ¦   ¦   late_loaded_option_user.proto
+¦   ¦   ¦   ¦       ¦   ¦   sample_messages_edition.proto
+¦   ¦   ¦   ¦       ¦   ¦   source_context.proto
+¦   ¦   ¦   ¦       ¦   ¦   struct.proto
+¦   ¦   ¦   ¦       ¦   ¦   timestamp.proto
+¦   ¦   ¦   ¦       ¦   ¦   type.proto
+¦   ¦   ¦   ¦       ¦   ¦   wrappers.proto
+¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦       ¦   +---bridge
+¦   ¦   ¦   ¦       ¦   ¦       message_set.proto
+¦   ¦   ¦   ¦       ¦   ¦       
+¦   ¦   ¦   ¦       ¦   +---compiler
+¦   ¦   ¦   ¦       ¦   ¦   ¦   plugin.proto
+¦   ¦   ¦   ¦       ¦   ¦   ¦   
+¦   ¦   ¦   ¦       ¦   ¦   +---ruby
+¦   ¦   ¦   ¦       ¦   ¦           ruby_generated_code.proto
+¦   ¦   ¦   ¦       ¦   ¦           ruby_generated_code_proto2.proto
+¦   ¦   ¦   ¦       ¦   ¦           ruby_generated_code_proto2_import.proto
+¦   ¦   ¦   ¦       ¦   ¦           ruby_generated_pkg_explicit.proto
+¦   ¦   ¦   ¦       ¦   ¦           ruby_generated_pkg_explicit_legacy.proto
+¦   ¦   ¦   ¦       ¦   ¦           ruby_generated_pkg_implicit.proto
+¦   ¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦   ¦       ¦           json_format.proto
+¦   ¦   ¦   ¦       ¦           json_format_proto3.proto
+¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦       +---rpc
+¦   ¦   ¦   ¦       ¦   ¦   code.proto
+¦   ¦   ¦   ¦       ¦   ¦   error_details.proto
+¦   ¦   ¦   ¦       ¦   ¦   http.proto
+¦   ¦   ¦   ¦       ¦   ¦   status.proto
+¦   ¦   ¦   ¦       ¦   ¦   
+¦   ¦   ¦   ¦       ¦   +---context
+¦   ¦   ¦   ¦       ¦           attribute_context.proto
+¦   ¦   ¦   ¦       ¦           audit_context.proto
+¦   ¦   ¦   ¦       ¦           
+¦   ¦   ¦   ¦       +---type
+¦   ¦   ¦   ¦               calendar_period.proto
+¦   ¦   ¦   ¦               color.proto
+¦   ¦   ¦   ¦               date.proto
+¦   ¦   ¦   ¦               datetime.proto
+¦   ¦   ¦   ¦               dayofweek.proto
+¦   ¦   ¦   ¦               decimal.proto
+¦   ¦   ¦   ¦               expr.proto
+¦   ¦   ¦   ¦               fraction.proto
+¦   ¦   ¦   ¦               interval.proto
+¦   ¦   ¦   ¦               latlng.proto
+¦   ¦   ¦   ¦               localized_text.proto
+¦   ¦   ¦   ¦               money.proto
+¦   ¦   ¦   ¦               month.proto
+¦   ¦   ¦   ¦               phone_number.proto
+¦   ¦   ¦   ¦               postal_address.proto
+¦   ¦   ¦   ¦               quaternion.proto
+¦   ¦   ¦   ¦               timeofday.proto
+¦   ¦   ¦   ¦               
+¦   ¦   ¦   +---src
+¦   ¦   ¦       ¦   iam_policy_service_client_config.json
+¦   ¦   ¦       ¦   locations_client_config.json
+¦   ¦   ¦       ¦   operations_client_config.json
+¦   ¦   ¦       ¦   protosList.json
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---bundlingCalls
+¦   ¦   ¦       +---longRunningCalls
+¦   ¦   ¦       +---normalCalls
+¦   ¦   ¦       +---paginationCalls
+¦   ¦   ¦       +---streamingCalls
+¦   ¦   +---node_modules
+¦   ¦       +---node-fetch
+¦   ¦           ¦   LICENSE.md
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---@types
+¦   ¦           +---src
+¦   ¦               +---errors
+¦   ¦               +---utils
+¦   +---google-logging-utils
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---src
+¦   +---gopd
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---gtoken
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---cjs
+¦   ¦       ¦   +---src
+¦   ¦       ¦           index.cjs
+¦   ¦       ¦           
+¦   ¦       +---esm
+¦   ¦           +---src
+¦   +---has-symbols
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       +---shams
+¦   +---has-tostringtag
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       +---shams
+¦   +---hasown
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦           FUNDING.yml
+¦   ¦           
+¦   +---helmet
+¦   ¦       CHANGELOG.md
+¦   ¦       index.cjs
+¦   ¦       index.d.cts
+¦   ¦       index.d.mts
+¦   ¦       index.mjs
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       SECURITY.md
+¦   ¦       
+¦   +---html-entities
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   +---commonjs
+¦   ¦   ¦   ¦       index.js.flow
+¦   ¦   ¦   ¦       package.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---esm
+¦   ¦   ¦           package.json
+¦   ¦   ¦           
+¦   ¦   +---src
+¦   ¦           index.ts
+¦   ¦           named-references.ts
+¦   ¦           numeric-unicode-map.ts
+¦   ¦           surrogate-pairs.ts
+¦   ¦           
+¦   +---http-errors
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   +---http-proxy-agent
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---agent-base
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---dist
+¦   ¦       ¦   ¦   +---src
+¦   ¦       ¦   +---src
+¦   ¦       ¦           index.ts
+¦   ¦       ¦           promisify.ts
+¦   ¦       ¦           
+¦   ¦       +---debug
+¦   ¦           ¦   LICENSE
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---src
+¦   +---https-proxy-agent
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦       index.d.ts.map
+¦   ¦   ¦       parse-proxy-response.d.ts.map
+¦   ¦   ¦       
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦           ¦   LICENSE
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---src
+¦   +---iconv-lite
+¦   ¦   ¦   Changelog.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       dependabot.yml
+¦   ¦   ¦       
+¦   ¦   +---.idea
+¦   ¦   ¦   ¦   iconv-lite.iml
+¦   ¦   ¦   ¦   modules.xml
+¦   ¦   ¦   ¦   vcs.xml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---codeStyles
+¦   ¦   ¦   ¦       codeStyleConfig.xml
+¦   ¦   ¦   ¦       Project.xml
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---inspectionProfiles
+¦   ¦   ¦           Project_Default.xml
+¦   ¦   ¦           
+¦   ¦   +---encodings
+¦   ¦   ¦   +---tables
+¦   ¦   ¦           big5-added.json
+¦   ¦   ¦           cp936.json
+¦   ¦   ¦           cp949.json
+¦   ¦   ¦           cp950.json
+¦   ¦   ¦           eucjp.json
+¦   ¦   ¦           gb18030-ranges.json
+¦   ¦   ¦           gbk-added.json
+¦   ¦   ¦           shiftjis.json
+¦   ¦   ¦           
+¦   ¦   +---lib
+¦   +---idb-keyval
+¦   ¦   ¦   LICENCE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦       ¦   compat.cjs
+¦   ¦       ¦   index.cjs
+¦   ¦       ¦   umd.cjs
+¦   ¦       ¦   
+¦   ¦       +---src
+¦   ¦       +---test
+¦   ¦           ¦   index.html
+¦   ¦           ¦   
+¦   ¦           +---src
+¦   ¦           +---test
+¦   +---inherits
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---ip-address
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   ¦   address-error.d.ts.map
+¦   ¦   ¦   ¦   common.d.ts.map
+¦   ¦   ¦   ¦   ip-address.d.ts.map
+¦   ¦   ¦   ¦   ipv4.d.ts.map
+¦   ¦   ¦   ¦   ipv6.d.ts.map
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---v4
+¦   ¦   ¦   ¦       constants.d.ts.map
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---v6
+¦   ¦   ¦           constants.d.ts.map
+¦   ¦   ¦           helpers.d.ts.map
+¦   ¦   ¦           regular-expressions.d.ts.map
+¦   ¦   ¦           
+¦   ¦   +---src
+¦   ¦       ¦   address-error.ts
+¦   ¦       ¦   common.ts
+¦   ¦       ¦   ip-address.ts
+¦   ¦       ¦   ipv4.ts
+¦   ¦       ¦   ipv6.ts
+¦   ¦       ¦   
+¦   ¦       +---v4
+¦   ¦       ¦       constants.ts
+¦   ¦       ¦       
+¦   ¦       +---v6
+¦   ¦               constants.ts
+¦   ¦               helpers.ts
+¦   ¦               regular-expressions.ts
+¦   ¦               
+¦   +---is-arrayish
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       yarn-error.log
+¦   ¦       
+¦   +---is-electron
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---is-fullwidth-code-point
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---is-promise
+¦   ¦       index.mjs
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---is-stream
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---is-url
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   History.md
+¦   ¦   ¦   LICENSE-MIT
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   +---isexe
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   +---json-bigint
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---jsonrepair
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   ¦       +---cjs
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---regular
+¦   ¦       ¦   +---streaming
+¦   ¦       ¦   ¦   +---buffer
+¦   ¦       ¦   +---utils
+¦   ¦       +---esm
+¦   ¦       ¦   +---regular
+¦   ¦       ¦   +---streaming
+¦   ¦       ¦   ¦   +---buffer
+¦   ¦       ¦   +---utils
+¦   ¦       +---types
+¦   ¦       ¦   ¦   index.d.ts.map
+¦   ¦       ¦   ¦   stream.d.ts.map
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---regular
+¦   ¦       ¦   ¦       jsonrepair.d.ts.map
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---streaming
+¦   ¦       ¦   ¦   ¦   core.d.ts.map
+¦   ¦       ¦   ¦   ¦   stack.d.ts.map
+¦   ¦       ¦   ¦   ¦   stream.d.ts.map
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---buffer
+¦   ¦       ¦   ¦           InputBuffer.d.ts.map
+¦   ¦       ¦   ¦           OutputBuffer.d.ts.map
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---utils
+¦   ¦       ¦           JSONRepairError.d.ts.map
+¦   ¦       ¦           stringUtils.d.ts.map
+¦   ¦       ¦           
+¦   ¦       +---umd
+¦   ¦               package.json
+¦   ¦               
+¦   +---jwa
+¦   ¦       LICENSE
+¦   ¦       opslevel.yml
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---jws
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---lodash.camelcase
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---long
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---umd
+¦   ¦           package.json
+¦   ¦           
+¦   +---make-error
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   +---math-intrinsics
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---constants
+¦   ¦   +---test
+¦   +---media-typer
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---merge-descriptors
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---mime
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---types
+¦   +---mime-db
+¦   ¦       db.json
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---mime-types
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---minimist
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---example
+¦   ¦   +---test
+¦   +---mkdirp
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.markdown
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦           usage.txt
+¦   ¦           
+¦   +---morgan
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   ¦   .coveralls.yml
+¦   ¦       ¦   ¦   .eslintrc
+¦   ¦       ¦   ¦   .npmignore
+¦   ¦       ¦   ¦   .travis.yml
+¦   ¦       ¦   ¦   CHANGELOG.md
+¦   ¦       ¦   ¦   component.json
+¦   ¦       ¦   ¦   LICENSE
+¦   ¦       ¦   ¦   Makefile
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---src
+¦   ¦       +---ms
+¦   ¦       ¦       license.md
+¦   ¦       ¦       package.json
+¦   ¦       ¦       readme.md
+¦   ¦       ¦       
+¦   ¦       +---on-finished
+¦   ¦               HISTORY.md
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---ms
+¦   ¦       license.md
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---multer
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---media-typer
+¦   ¦   ¦   ¦       HISTORY.md
+¦   ¦   ¦   ¦       LICENSE
+¦   ¦   ¦   ¦       package.json
+¦   ¦   ¦   ¦       README.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---type-is
+¦   ¦   ¦           HISTORY.md
+¦   ¦   ¦           LICENSE
+¦   ¦   ¦           package.json
+¦   ¦   ¦           README.md
+¦   ¦   ¦           
+¦   ¦   +---storage
+¦   +---negotiator
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---node-domexception
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.history
+¦   ¦           package_20210527203733.json
+¦   ¦           package_20210527203825.json
+¦   ¦           package_20210527204621.json
+¦   ¦           package_20210527204913.json
+¦   ¦           package_20210527204925.json
+¦   ¦           package_20210527205145.json
+¦   ¦           package_20210527205156.json
+¦   ¦           README_20210527203617.md
+¦   ¦           README_20210527212714.md
+¦   ¦           README_20210527213345.md
+¦   ¦           README_20210527213411.md
+¦   ¦           README_20210527213803.md
+¦   ¦           README_20210527214323.md
+¦   ¦           README_20210527214408.md
+¦   ¦           
+¦   +---node-ensure
+¦   ¦       .npmignore
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---node-fetch
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           index.mjs
+¦   ¦           
+¦   +---object-assign
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---object-hash
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.markdown
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   +---object-inspect
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package-support.json
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.markdown
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---example
+¦   ¦   +---test
+¦   ¦       +---browser
+¦   +---on-finished
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---on-headers
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---once
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---opencollective-postinstall
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---p-limit
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---parseurl
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---path-key
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---path-to-regexp
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   Readme.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   +---pdf-parse
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .gitlab-ci.yml
+¦   ¦   ¦   .jsbeautifyrc
+¦   ¦   ¦   CHANGELOG
+¦   ¦   ¦   CONTRIBUTING.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   NOTES.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.vscode
+¦   ¦   ¦       launch.json
+¦   ¦   ¦       settings.json
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦       +---data
+¦   ¦               01-valid.pdf
+¦   ¦               02-valid.pdf
+¦   ¦               03-invalid.pdf
+¦   ¦               04-valid.pdf
+¦   ¦               05-versions-space.pdf
+¦   ¦               
+¦   +---pdf2pic
+¦   ¦   ¦   .prettierrc.json
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   migration.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   rollup.config.mjs
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦   ¦   dependabot.yml
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---ISSUE_TEMPLATE
+¦   ¦   ¦   ¦       bug_report.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---workflows
+¦   ¦   ¦           lint.yml
+¦   ¦   ¦           npm-publish.yml
+¦   ¦   ¦           test.yml
+¦   ¦   ¦           
+¦   ¦   +---.husky
+¦   ¦   ¦       pre-commit
+¦   ¦   ¦       
+¦   ¦   +---dist
+¦   ¦   ¦   +---types
+¦   ¦   ¦   +---utils
+¦   ¦   ¦       +---converters
+¦   ¦   +---examples
+¦   ¦       +---docker
+¦   ¦               .dockerignore
+¦   ¦               Dockerfile
+¦   ¦               example.pdf
+¦   ¦               index.mjs
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---proto3-json-serializer
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       +---src
+¦   +---protobufjs
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   +---light
+¦   ¦   ¦   +---minimal
+¦   ¦   +---ext
+¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦       README.md
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---descriptor
+¦   ¦   ¦           README.md
+¦   ¦   ¦           
+¦   ¦   +---google
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---api
+¦   ¦   ¦   ¦       annotations.json
+¦   ¦   ¦   ¦       annotations.proto
+¦   ¦   ¦   ¦       http.json
+¦   ¦   ¦   ¦       http.proto
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---protobuf
+¦   ¦   ¦           api.json
+¦   ¦   ¦           api.proto
+¦   ¦   ¦           descriptor.json
+¦   ¦   ¦           descriptor.proto
+¦   ¦   ¦           source_context.json
+¦   ¦   ¦           source_context.proto
+¦   ¦   ¦           type.json
+¦   ¦   ¦           type.proto
+¦   ¦   ¦           
+¦   ¦   +---scripts
+¦   ¦   +---src
+¦   ¦       ¦   typescript.jsdoc
+¦   ¦       ¦   
+¦   ¦       +---rpc
+¦   ¦       +---util
+¦   +---proxy-addr
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---proxy-from-env
+¦   ¦       .eslintrc
+¦   ¦       .travis.yml
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---qs
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---range-parser
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---raw-body
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       SECURITY.md
+¦   ¦       
+¦   +---readable-stream
+¦   ¦   ¦   CONTRIBUTING.md
+¦   ¦   ¦   GOVERNANCE.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦       +---internal
+¦   ¦           +---streams
+¦   +---regenerator-runtime
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---require-directory
+¦   ¦       .jshintrc
+¦   ¦       .npmignore
+¦   ¦       .travis.yml
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.markdown
+¦   ¦       
+¦   +---resolve-pkg-maps
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦           index.cjs
+¦   ¦           index.d.cts
+¦   ¦           index.d.mts
+¦   ¦           index.mjs
+¦   ¦           
+¦   +---retry
+¦   ¦   ¦   License
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---example
+¦   ¦   +---lib
+¦   +---retry-request
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---router
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦           ¦   LICENSE
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---src
+¦   +---safe-buffer
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---safer-buffer
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       Porting-Buffer.md
+¦   ¦       Readme.md
+¦   ¦       
+¦   +---sax
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---semver
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   range.bnf
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   +---classes
+¦   ¦   +---functions
+¦   ¦   +---internal
+¦   ¦   +---ranges
+¦   +---send
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   ¦   LICENSE
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---src
+¦   ¦       +---mime-db
+¦   ¦       ¦       db.json
+¦   ¦       ¦       HISTORY.md
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       package.json
+¦   ¦       ¦       README.md
+¦   ¦       ¦       
+¦   ¦       +---mime-types
+¦   ¦               HISTORY.md
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---serve-static
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---setprototypeof
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   +---sharp
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---install
+¦   ¦   +---lib
+¦   ¦   +---src
+¦   ¦           binding.gyp
+¦   ¦           common.cc
+¦   ¦           common.h
+¦   ¦           metadata.cc
+¦   ¦           metadata.h
+¦   ¦           operations.cc
+¦   ¦           operations.h
+¦   ¦           pipeline.cc
+¦   ¦           pipeline.h
+¦   ¦           sharp.cc
+¦   ¦           stats.cc
+¦   ¦           stats.h
+¦   ¦           utilities.cc
+¦   ¦           utilities.h
+¦   ¦           
+¦   +---shebang-command
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---shebang-regex
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---side-channel
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---side-channel-list
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---side-channel-map
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---side-channel-weakmap
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.json
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   +---simple-swizzle
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---statuses
+¦   ¦       codes.json
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---stream-events
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---stream-shift
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦       +---workflows
+¦   ¦               test.yml
+¦   ¦               
+¦   +---streamsearch
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   ¦           ci.yml
+¦   ¦   ¦           lint.yml
+¦   ¦   ¦           
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---string-width
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---string_decoder
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---strip-ansi
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---strnum
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.vscode
+¦   ¦           launch.json
+¦   ¦           
+¦   +---stubs
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---teeny-request
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦   ¦   +---src
+¦   ¦   +---node_modules
+¦   ¦       +---agent-base
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---dist
+¦   ¦       ¦   ¦   +---src
+¦   ¦       ¦   +---src
+¦   ¦       ¦           index.ts
+¦   ¦       ¦           promisify.ts
+¦   ¦       ¦           
+¦   ¦       +---debug
+¦   ¦       ¦   ¦   LICENSE
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---src
+¦   ¦       +---https-proxy-agent
+¦   ¦       ¦   ¦   package.json
+¦   ¦       ¦   ¦   README.md
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---dist
+¦   ¦       +---node-fetch
+¦   ¦           ¦   LICENSE.md
+¦   ¦           ¦   package.json
+¦   ¦           ¦   README.md
+¦   ¦           ¦   
+¦   ¦           +---@types
+¦   ¦           +---src
+¦   ¦               +---errors
+¦   ¦               +---utils
+¦   +---tesseract.js-core
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       tesseract-core-lstm.wasm
+¦   ¦       tesseract-core-simd-lstm.wasm
+¦   ¦       tesseract-core-simd.wasm
+¦   ¦       tesseract-core.wasm
+¦   ¦       
+¦   +---toidentifier
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---tr46
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   package.json
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           .gitkeep
+¦   ¦           mappingTable.json
+¦   ¦           
+¦   +---ts-node
+¦   ¦   ¦   child-loader.mjs
+¦   ¦   ¦   esm.mjs
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tsconfig.schema.json
+¦   ¦   ¦   tsconfig.schemastore-schema.json
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   +---child
+¦   ¦   ¦   +---transpilers
+¦   ¦   +---dist-raw
+¦   ¦   ¦       NODE-LICENSE.md
+¦   ¦   ¦       README.md
+¦   ¦   ¦       
+¦   ¦   +---esm
+¦   ¦   ¦       transpile-only.mjs
+¦   ¦   ¦       
+¦   ¦   +---node10
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---node12
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---node14
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---node16
+¦   ¦   ¦       tsconfig.json
+¦   ¦   ¦       
+¦   ¦   +---register
+¦   ¦   +---transpilers
+¦   +---tsx
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦       ¦   cli.cjs
+¦   ¦       ¦   cli.mjs
+¦   ¦       ¦   client-BQVF1NaW.mjs
+¦   ¦       ¦   client-D6NvIMSC.cjs
+¦   ¦       ¦   get-pipe-path-BHW2eJdv.mjs
+¦   ¦       ¦   get-pipe-path-BoR10qr8.cjs
+¦   ¦       ¦   index-7AaEi15b.mjs
+¦   ¦       ¦   index-BWFBUo6r.cjs
+¦   ¦       ¦   index-gbaejti9.mjs
+¦   ¦       ¦   index-gckBtVBf.cjs
+¦   ¦       ¦   lexer-DgIbo0BU.cjs
+¦   ¦       ¦   lexer-DQCqS3nf.mjs
+¦   ¦       ¦   loader.cjs
+¦   ¦       ¦   loader.mjs
+¦   ¦       ¦   node-features-roYmp9jK.cjs
+¦   ¦       ¦   node-features-_8ZFwP_x.mjs
+¦   ¦       ¦   package-BgRDTLo0.mjs
+¦   ¦       ¦   package-BTMRuUqB.cjs
+¦   ¦       ¦   patch-repl.cjs
+¦   ¦       ¦   patch-repl.mjs
+¦   ¦       ¦   preflight.cjs
+¦   ¦       ¦   preflight.mjs
+¦   ¦       ¦   register-2sWVXuRQ.cjs
+¦   ¦       ¦   register-B7jrtLTO.mjs
+¦   ¦       ¦   register-CFH5oNdT.mjs
+¦   ¦       ¦   register-D46fvsV_.cjs
+¦   ¦       ¦   repl.cjs
+¦   ¦       ¦   repl.mjs
+¦   ¦       ¦   require-D4F1Lv60.cjs
+¦   ¦       ¦   require-DQxpCAr4.mjs
+¦   ¦       ¦   suppress-warnings.cjs
+¦   ¦       ¦   suppress-warnings.mjs
+¦   ¦       ¦   temporary-directory-B83uKxJF.cjs
+¦   ¦       ¦   temporary-directory-CwHp0_NW.mjs
+¦   ¦       ¦   
+¦   ¦       +---cjs
+¦   ¦       ¦   ¦   index.cjs
+¦   ¦       ¦   ¦   index.mjs
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---api
+¦   ¦       ¦           index.cjs
+¦   ¦       ¦           index.d.cts
+¦   ¦       ¦           index.d.mts
+¦   ¦       ¦           index.mjs
+¦   ¦       ¦           
+¦   ¦       +---esm
+¦   ¦           ¦   index.cjs
+¦   ¦           ¦   index.mjs
+¦   ¦           ¦   
+¦   ¦           +---api
+¦   ¦                   index.cjs
+¦   ¦                   index.d.cts
+¦   ¦                   index.d.mts
+¦   ¦                   index.mjs
+¦   ¦                   
+¦   +---type-is
+¦   ¦   ¦   HISTORY.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---node_modules
+¦   ¦       +---mime-db
+¦   ¦       ¦       db.json
+¦   ¦       ¦       HISTORY.md
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       package.json
+¦   ¦       ¦       README.md
+¦   ¦       ¦       
+¦   ¦       +---mime-types
+¦   ¦               HISTORY.md
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---typedarray
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.markdown
+¦   ¦   ¦   
+¦   ¦   +---example
+¦   ¦   +---test
+¦   ¦       +---server
+¦   +---typescript
+¦   ¦   ¦   LICENSE.txt
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   SECURITY.md
+¦   ¦   ¦   ThirdPartyNoticeText.txt
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦       tsc
+¦   ¦   ¦       tsserver
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦       ¦   typesMap.json
+¦   ¦       ¦   
+¦   ¦       +---cs
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---de
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---es
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---fr
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---it
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---ja
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---ko
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---pl
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---pt-br
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---ru
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---tr
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---zh-cn
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---zh-tw
+¦   ¦               diagnosticMessages.generated.json
+¦   ¦               
+¦   +---undici-types
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---unpipe
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---util-deprecate
+¦   ¦       History.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---uuid
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   CONTRIBUTING.md
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   wrapper.mjs
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦       +---bin
+¦   ¦       ¦       uuid
+¦   ¦       ¦       
+¦   ¦       +---esm-browser
+¦   ¦       +---esm-node
+¦   ¦       +---umd
+¦   +---v8-compile-cache-lib
+¦   ¦       CHANGELOG.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---vary
+¦   ¦       HISTORY.md
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---wasm-feature-detect
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   README.md.ejs
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦       ¦   index.d.cts
+¦   ¦       ¦   
+¦   ¦       +---cjs
+¦   ¦       ¦       index.cjs
+¦   ¦       ¦       
+¦   ¦       +---esm
+¦   ¦       +---umd
+¦   +---web-streams-polyfill
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦   ¦   polyfill.es2018.mjs
+¦   ¦   ¦   ¦   polyfill.es2018.mjs.map
+¦   ¦   ¦   ¦   polyfill.es6.mjs
+¦   ¦   ¦   ¦   polyfill.es6.mjs.map
+¦   ¦   ¦   ¦   polyfill.mjs
+¦   ¦   ¦   ¦   polyfill.mjs.map
+¦   ¦   ¦   ¦   ponyfill.es2018.mjs
+¦   ¦   ¦   ¦   ponyfill.es2018.mjs.map
+¦   ¦   ¦   ¦   ponyfill.es6.mjs
+¦   ¦   ¦   ¦   ponyfill.es6.mjs.map
+¦   ¦   ¦   ¦   ponyfill.mjs
+¦   ¦   ¦   ¦   ponyfill.mjs.map
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---types
+¦   ¦   ¦       ¦   tsdoc-metadata.json
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---ts3.6
+¦   ¦   +---es2018
+¦   ¦   ¦       package.json
+¦   ¦   ¦       
+¦   ¦   +---es6
+¦   ¦   ¦       package.json
+¦   ¦   ¦       
+¦   ¦   +---ponyfill
+¦   ¦       ¦   package.json
+¦   ¦       ¦   
+¦   ¦       +---es2018
+¦   ¦       ¦       package.json
+¦   ¦       ¦       
+¦   ¦       +---es6
+¦   ¦               package.json
+¦   ¦               
+¦   +---webidl-conversions
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---whatwg-url
+¦   ¦   ¦   LICENSE.txt
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---which
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦           node-which
+¦   ¦           
+¦   +---wrap-ansi
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---wrappy
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---xml2js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   +---xmlbuilder
+¦   ¦   ¦   appveyor.yml
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   +---typings
+¦   +---xtend
+¦   ¦       .jshintrc
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---y18n
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.mjs
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       ¦   index.cjs
+¦   ¦       ¦   
+¦   ¦       +---lib
+¦   ¦           +---platform-shims
+¦   +---yargs
+¦   ¦   ¦   browser.mjs
+¦   ¦   ¦   index.cjs
+¦   ¦   ¦   index.mjs
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   yargs
+¦   ¦   ¦   yargs.mjs
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦   ¦   ¦   index.cjs
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---typings
+¦   ¦   ¦       +---utils
+¦   ¦   +---helpers
+¦   ¦   ¦       helpers.mjs
+¦   ¦   ¦       package.json
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦   ¦   +---platform-shims
+¦   ¦   ¦           browser.mjs
+¦   ¦   ¦           esm.mjs
+¦   ¦   ¦           
+¦   ¦   +---locales
+¦   ¦           be.json
+¦   ¦           cs.json
+¦   ¦           de.json
+¦   ¦           en.json
+¦   ¦           es.json
+¦   ¦           fi.json
+¦   ¦           fr.json
+¦   ¦           hi.json
+¦   ¦           hu.json
+¦   ¦           id.json
+¦   ¦           it.json
+¦   ¦           ja.json
+¦   ¦           ko.json
+¦   ¦           nb.json
+¦   ¦           nl.json
+¦   ¦           nn.json
+¦   ¦           pirate.json
+¦   ¦           pl.json
+¦   ¦           pt.json
+¦   ¦           pt_BR.json
+¦   ¦           ru.json
+¦   ¦           th.json
+¦   ¦           tr.json
+¦   ¦           uk_UA.json
+¦   ¦           uz.json
+¦   ¦           zh_CN.json
+¦   ¦           zh_TW.json
+¦   ¦           
+¦   +---yargs-parser
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE.txt
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---build
+¦   ¦       ¦   index.cjs
+¦   ¦       ¦   
+¦   ¦       +---lib
+¦   +---yn
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---yocto-queue
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---zlibjs
+¦   ¦   ¦   ChangeLog.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.en.md
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦           .gitkeep
+¦   ¦           
+¦   +---zod
+¦       ¦   index.cjs
+¦       ¦   index.d.cts
+¦       ¦   LICENSE
+¦       ¦   package.json
+¦       ¦   README.md
+¦       ¦   
+¦       +---src
+¦       ¦   ¦   index.ts
+¦       ¦   ¦   
+¦       ¦   +---v3
+¦       ¦   ¦   ¦   errors.ts
+¦       ¦   ¦   ¦   external.ts
+¦       ¦   ¦   ¦   index.ts
+¦       ¦   ¦   ¦   standard-schema.ts
+¦       ¦   ¦   ¦   types.ts
+¦       ¦   ¦   ¦   ZodError.ts
+¦       ¦   ¦   ¦   
+¦       ¦   ¦   +---benchmarks
+¦       ¦   ¦   ¦       datetime.ts
+¦       ¦   ¦   ¦       discriminatedUnion.ts
+¦       ¦   ¦   ¦       index.ts
+¦       ¦   ¦   ¦       ipv4.ts
+¦       ¦   ¦   ¦       object.ts
+¦       ¦   ¦   ¦       primitives.ts
+¦       ¦   ¦   ¦       realworld.ts
+¦       ¦   ¦   ¦       string.ts
+¦       ¦   ¦   ¦       union.ts
+¦       ¦   ¦   ¦       
+¦       ¦   ¦   +---helpers
+¦       ¦   ¦   ¦       enumUtil.ts
+¦       ¦   ¦   ¦       errorUtil.ts
+¦       ¦   ¦   ¦       parseUtil.ts
+¦       ¦   ¦   ¦       partialUtil.ts
+¦       ¦   ¦   ¦       typeAliases.ts
+¦       ¦   ¦   ¦       util.ts
+¦       ¦   ¦   ¦       
+¦       ¦   ¦   +---locales
+¦       ¦   ¦   ¦       en.ts
+¦       ¦   ¦   ¦       
+¦       ¦   ¦   +---tests
+¦       ¦   ¦           all-errors.test.ts
+¦       ¦   ¦           anyunknown.test.ts
+¦       ¦   ¦           array.test.ts
+¦       ¦   ¦           async-parsing.test.ts
+¦       ¦   ¦           async-refinements.test.ts
+¦       ¦   ¦           base.test.ts
+¦       ¦   ¦           bigint.test.ts
+¦       ¦   ¦           branded.test.ts
+¦       ¦   ¦           catch.test.ts
+¦       ¦   ¦           coerce.test.ts
+¦       ¦   ¦           complex.test.ts
+¦       ¦   ¦           custom.test.ts
+¦       ¦   ¦           date.test.ts
+¦       ¦   ¦           deepmasking.test.ts
+¦       ¦   ¦           default.test.ts
+¦       ¦   ¦           description.test.ts
+¦       ¦   ¦           discriminated-unions.test.ts
+¦       ¦   ¦           enum.test.ts
+¦       ¦   ¦           error.test.ts
+¦       ¦   ¦           firstparty.test.ts
+¦       ¦   ¦           firstpartyschematypes.test.ts
+¦       ¦   ¦           function.test.ts
+¦       ¦   ¦           generics.test.ts
+¦       ¦   ¦           instanceof.test.ts
+¦       ¦   ¦           intersection.test.ts
+¦       ¦   ¦           language-server.source.ts
+¦       ¦   ¦           language-server.test.ts
+¦       ¦   ¦           literal.test.ts
+¦       ¦   ¦           map.test.ts
+¦       ¦   ¦           masking.test.ts
+¦       ¦   ¦           mocker.test.ts
+¦       ¦   ¦           Mocker.ts
+¦       ¦   ¦           nan.test.ts
+¦       ¦   ¦           nativeEnum.test.ts
+¦       ¦   ¦           nullable.test.ts
+¦       ¦   ¦           number.test.ts
+¦       ¦   ¦           object-augmentation.test.ts
+¦       ¦   ¦           object-in-es5-env.test.ts
+¦       ¦   ¦           object.test.ts
+¦       ¦   ¦           optional.test.ts
+¦       ¦   ¦           parser.test.ts
+¦       ¦   ¦           parseUtil.test.ts
+¦       ¦   ¦           partials.test.ts
+¦       ¦   ¦           pickomit.test.ts
+¦       ¦   ¦           pipeline.test.ts
+¦       ¦   ¦           preprocess.test.ts
+¦       ¦   ¦           primitive.test.ts
+¦       ¦   ¦           promise.test.ts
+¦       ¦   ¦           readonly.test.ts
+¦       ¦   ¦           record.test.ts
+¦       ¦   ¦           recursive.test.ts
+¦       ¦   ¦           refine.test.ts
+¦       ¦   ¦           safeparse.test.ts
+¦       ¦   ¦           set.test.ts
+¦       ¦   ¦           standard-schema.test.ts
+¦       ¦   ¦           string.test.ts
+¦       ¦   ¦           transformer.test.ts
+¦       ¦   ¦           tuple.test.ts
+¦       ¦   ¦           unions.test.ts
+¦       ¦   ¦           validations.test.ts
+¦       ¦   ¦           void.test.ts
+¦       ¦   ¦           
+¦       ¦   +---v4
+¦       ¦   ¦   ¦   index.ts
+¦       ¦   ¦   ¦   
+¦       ¦   ¦   +---classic
+¦       ¦   ¦   ¦   ¦   checks.ts
+¦       ¦   ¦   ¦   ¦   coerce.ts
+¦       ¦   ¦   ¦   ¦   compat.ts
+¦       ¦   ¦   ¦   ¦   errors.ts
+¦       ¦   ¦   ¦   ¦   external.ts
+¦       ¦   ¦   ¦   ¦   index.ts
+¦       ¦   ¦   ¦   ¦   iso.ts
+¦       ¦   ¦   ¦   ¦   parse.ts
+¦       ¦   ¦   ¦   ¦   schemas.ts
+¦       ¦   ¦   ¦   ¦   
+¦       ¦   ¦   ¦   +---tests
+¦       ¦   ¦   ¦           anyunknown.test.ts
+¦       ¦   ¦   ¦           array.test.ts
+¦       ¦   ¦   ¦           assignability.test.ts
+¦       ¦   ¦   ¦           async-parsing.test.ts
+¦       ¦   ¦   ¦           async-refinements.test.ts
+¦       ¦   ¦   ¦           base.test.ts
+¦       ¦   ¦   ¦           bigint.test.ts
+¦       ¦   ¦   ¦           brand.test.ts
+¦       ¦   ¦   ¦           catch.test.ts
+¦       ¦   ¦   ¦           coalesce.test.ts
+¦       ¦   ¦   ¦           coerce.test.ts
+¦       ¦   ¦   ¦           continuability.test.ts
+¦       ¦   ¦   ¦           custom.test.ts
+¦       ¦   ¦   ¦           date.test.ts
+¦       ¦   ¦   ¦           datetime.test.ts
+¦       ¦   ¦   ¦           default.test.ts
+¦       ¦   ¦   ¦           description.test.ts
+¦       ¦   ¦   ¦           discriminated-unions.test.ts
+¦       ¦   ¦   ¦           enum.test.ts
+¦       ¦   ¦   ¦           error-utils.test.ts
+¦       ¦   ¦   ¦           error.test.ts
+¦       ¦   ¦   ¦           file.test.ts
+¦       ¦   ¦   ¦           firstparty.test.ts
+¦       ¦   ¦   ¦           function.test.ts
+¦       ¦   ¦   ¦           generics.test.ts
+¦       ¦   ¦   ¦           index.test.ts
+¦       ¦   ¦   ¦           instanceof.test.ts
+¦       ¦   ¦   ¦           intersection.test.ts
+¦       ¦   ¦   ¦           json.test.ts
+¦       ¦   ¦   ¦           lazy.test.ts
+¦       ¦   ¦   ¦           literal.test.ts
+¦       ¦   ¦   ¦           map.test.ts
+¦       ¦   ¦   ¦           nan.test.ts
+¦       ¦   ¦   ¦           nested-refine.test.ts
+¦       ¦   ¦   ¦           nonoptional.test.ts
+¦       ¦   ¦   ¦           nullable.test.ts
+¦       ¦   ¦   ¦           number.test.ts
+¦       ¦   ¦   ¦           object.test.ts
+¦       ¦   ¦   ¦           optional.test.ts
+¦       ¦   ¦   ¦           partial.test.ts
+¦       ¦   ¦   ¦           pickomit.test.ts
+¦       ¦   ¦   ¦           pipe.test.ts
+¦       ¦   ¦   ¦           prefault.test.ts
+¦       ¦   ¦   ¦           preprocess.test.ts
+¦       ¦   ¦   ¦           primitive.test.ts
+¦       ¦   ¦   ¦           promise.test.ts
+¦       ¦   ¦   ¦           prototypes.test.ts
+¦       ¦   ¦   ¦           readonly.test.ts
+¦       ¦   ¦   ¦           record.test.ts
+¦       ¦   ¦   ¦           recursive-types.test.ts
+¦       ¦   ¦   ¦           refine.test.ts
+¦       ¦   ¦   ¦           registries.test.ts
+¦       ¦   ¦   ¦           set.test.ts
+¦       ¦   ¦   ¦           standard-schema.test.ts
+¦       ¦   ¦   ¦           string-formats.test.ts
+¦       ¦   ¦   ¦           string.test.ts
+¦       ¦   ¦   ¦           stringbool.test.ts
+¦       ¦   ¦   ¦           template-literal.test.ts
+¦       ¦   ¦   ¦           to-json-schema.test.ts
+¦       ¦   ¦   ¦           transform.test.ts
+¦       ¦   ¦   ¦           tuple.test.ts
+¦       ¦   ¦   ¦           union.test.ts
+¦       ¦   ¦   ¦           validations.test.ts
+¦       ¦   ¦   ¦           void.test.ts
+¦       ¦   ¦   ¦           
+¦       ¦   ¦   +---core
+¦       ¦   ¦   ¦   ¦   api.ts
+¦       ¦   ¦   ¦   ¦   checks.ts
+¦       ¦   ¦   ¦   ¦   config.ts
+¦       ¦   ¦   ¦   ¦   core.ts
+¦       ¦   ¦   ¦   ¦   doc.ts
+¦       ¦   ¦   ¦   ¦   errors.ts
+¦       ¦   ¦   ¦   ¦   function.ts
+¦       ¦   ¦   ¦   ¦   index.ts
+¦       ¦   ¦   ¦   ¦   json-schema.ts
+¦       ¦   ¦   ¦   ¦   parse.ts
+¦       ¦   ¦   ¦   ¦   regexes.ts
+¦       ¦   ¦   ¦   ¦   registries.ts
+¦       ¦   ¦   ¦   ¦   schemas.ts
+¦       ¦   ¦   ¦   ¦   standard-schema.ts
+¦       ¦   ¦   ¦   ¦   to-json-schema.ts
+¦       ¦   ¦   ¦   ¦   util.ts
+¦       ¦   ¦   ¦   ¦   versions.ts
+¦       ¦   ¦   ¦   ¦   zsf.ts
+¦       ¦   ¦   ¦   ¦   
+¦       ¦   ¦   ¦   +---tests
+¦       ¦   ¦   ¦       ¦   index.test.ts
+¦       ¦   ¦   ¦       ¦   
+¦       ¦   ¦   ¦       +---locales
+¦       ¦   ¦   ¦               be.test.ts
+¦       ¦   ¦   ¦               en.test.ts
+¦       ¦   ¦   ¦               ru.test.ts
+¦       ¦   ¦   ¦               tr.test.ts
+¦       ¦   ¦   ¦               
+¦       ¦   ¦   +---locales
+¦       ¦   ¦   ¦       ar.ts
+¦       ¦   ¦   ¦       az.ts
+¦       ¦   ¦   ¦       be.ts
+¦       ¦   ¦   ¦       ca.ts
+¦       ¦   ¦   ¦       cs.ts
+¦       ¦   ¦   ¦       de.ts
+¦       ¦   ¦   ¦       en.ts
+¦       ¦   ¦   ¦       eo.ts
+¦       ¦   ¦   ¦       es.ts
+¦       ¦   ¦   ¦       fa.ts
+¦       ¦   ¦   ¦       fi.ts
+¦       ¦   ¦   ¦       fr-CA.ts
+¦       ¦   ¦   ¦       fr.ts
+¦       ¦   ¦   ¦       he.ts
+¦       ¦   ¦   ¦       hu.ts
+¦       ¦   ¦   ¦       id.ts
+¦       ¦   ¦   ¦       index.ts
+¦       ¦   ¦   ¦       it.ts
+¦       ¦   ¦   ¦       ja.ts
+¦       ¦   ¦   ¦       kh.ts
+¦       ¦   ¦   ¦       ko.ts
+¦       ¦   ¦   ¦       mk.ts
+¦       ¦   ¦   ¦       ms.ts
+¦       ¦   ¦   ¦       nl.ts
+¦       ¦   ¦   ¦       no.ts
+¦       ¦   ¦   ¦       ota.ts
+¦       ¦   ¦   ¦       pl.ts
+¦       ¦   ¦   ¦       ps.ts
+¦       ¦   ¦   ¦       pt.ts
+¦       ¦   ¦   ¦       ru.ts
+¦       ¦   ¦   ¦       sl.ts
+¦       ¦   ¦   ¦       sv.ts
+¦       ¦   ¦   ¦       ta.ts
+¦       ¦   ¦   ¦       th.ts
+¦       ¦   ¦   ¦       tr.ts
+¦       ¦   ¦   ¦       ua.ts
+¦       ¦   ¦   ¦       ur.ts
+¦       ¦   ¦   ¦       vi.ts
+¦       ¦   ¦   ¦       zh-CN.ts
+¦       ¦   ¦   ¦       zh-TW.ts
+¦       ¦   ¦   ¦       
+¦       ¦   ¦   +---mini
+¦       ¦   ¦       ¦   checks.ts
+¦       ¦   ¦       ¦   coerce.ts
+¦       ¦   ¦       ¦   external.ts
+¦       ¦   ¦       ¦   index.ts
+¦       ¦   ¦       ¦   iso.ts
+¦       ¦   ¦       ¦   parse.ts
+¦       ¦   ¦       ¦   schemas.ts
+¦       ¦   ¦       ¦   
+¦       ¦   ¦       +---tests
+¦       ¦   ¦               assignability.test.ts
+¦       ¦   ¦               brand.test.ts
+¦       ¦   ¦               checks.test.ts
+¦       ¦   ¦               computed.test.ts
+¦       ¦   ¦               error.test.ts
+¦       ¦   ¦               functions.test.ts
+¦       ¦   ¦               index.test.ts
+¦       ¦   ¦               number.test.ts
+¦       ¦   ¦               object.test.ts
+¦       ¦   ¦               prototypes.test.ts
+¦       ¦   ¦               recursive-types.test.ts
+¦       ¦   ¦               string.test.ts
+¦       ¦   ¦               
+¦       ¦   +---v4-mini
+¦       ¦           index.ts
+¦       ¦           
+¦       +---v3
+¦       ¦   ¦   errors.cjs
+¦       ¦   ¦   errors.d.cts
+¦       ¦   ¦   external.cjs
+¦       ¦   ¦   external.d.cts
+¦       ¦   ¦   index.cjs
+¦       ¦   ¦   index.d.cts
+¦       ¦   ¦   standard-schema.cjs
+¦       ¦   ¦   standard-schema.d.cts
+¦       ¦   ¦   types.cjs
+¦       ¦   ¦   types.d.cts
+¦       ¦   ¦   ZodError.cjs
+¦       ¦   ¦   ZodError.d.cts
+¦       ¦   ¦   
+¦       ¦   +---helpers
+¦       ¦   ¦       enumUtil.cjs
+¦       ¦   ¦       enumUtil.d.cts
+¦       ¦   ¦       errorUtil.cjs
+¦       ¦   ¦       errorUtil.d.cts
+¦       ¦   ¦       parseUtil.cjs
+¦       ¦   ¦       parseUtil.d.cts
+¦       ¦   ¦       partialUtil.cjs
+¦       ¦   ¦       partialUtil.d.cts
+¦       ¦   ¦       typeAliases.cjs
+¦       ¦   ¦       typeAliases.d.cts
+¦       ¦   ¦       util.cjs
+¦       ¦   ¦       util.d.cts
+¦       ¦   ¦       
+¦       ¦   +---locales
+¦       ¦           en.cjs
+¦       ¦           en.d.cts
+¦       ¦           
+¦       +---v4
+¦       ¦   ¦   index.cjs
+¦       ¦   ¦   index.d.cts
+¦       ¦   ¦   
+¦       ¦   +---classic
+¦       ¦   ¦       checks.cjs
+¦       ¦   ¦       checks.d.cts
+¦       ¦   ¦       coerce.cjs
+¦       ¦   ¦       coerce.d.cts
+¦       ¦   ¦       compat.cjs
+¦       ¦   ¦       compat.d.cts
+¦       ¦   ¦       errors.cjs
+¦       ¦   ¦       errors.d.cts
+¦       ¦   ¦       external.cjs
+¦       ¦   ¦       external.d.cts
+¦       ¦   ¦       index.cjs
+¦       ¦   ¦       index.d.cts
+¦       ¦   ¦       iso.cjs
+¦       ¦   ¦       iso.d.cts
+¦       ¦   ¦       parse.cjs
+¦       ¦   ¦       parse.d.cts
+¦       ¦   ¦       schemas.cjs
+¦       ¦   ¦       schemas.d.cts
+¦       ¦   ¦       
+¦       ¦   +---core
+¦       ¦   ¦       api.cjs
+¦       ¦   ¦       api.d.cts
+¦       ¦   ¦       checks.cjs
+¦       ¦   ¦       checks.d.cts
+¦       ¦   ¦       core.cjs
+¦       ¦   ¦       core.d.cts
+¦       ¦   ¦       doc.cjs
+¦       ¦   ¦       doc.d.cts
+¦       ¦   ¦       errors.cjs
+¦       ¦   ¦       errors.d.cts
+¦       ¦   ¦       function.cjs
+¦       ¦   ¦       function.d.cts
+¦       ¦   ¦       index.cjs
+¦       ¦   ¦       index.d.cts
+¦       ¦   ¦       json-schema.cjs
+¦       ¦   ¦       json-schema.d.cts
+¦       ¦   ¦       parse.cjs
+¦       ¦   ¦       parse.d.cts
+¦       ¦   ¦       regexes.cjs
+¦       ¦   ¦       regexes.d.cts
+¦       ¦   ¦       registries.cjs
+¦       ¦   ¦       registries.d.cts
+¦       ¦   ¦       schemas.cjs
+¦       ¦   ¦       schemas.d.cts
+¦       ¦   ¦       standard-schema.cjs
+¦       ¦   ¦       standard-schema.d.cts
+¦       ¦   ¦       to-json-schema.cjs
+¦       ¦   ¦       to-json-schema.d.cts
+¦       ¦   ¦       util.cjs
+¦       ¦   ¦       util.d.cts
+¦       ¦   ¦       versions.cjs
+¦       ¦   ¦       versions.d.cts
+¦       ¦   ¦       
+¦       ¦   +---locales
+¦       ¦   ¦       ar.cjs
+¦       ¦   ¦       ar.d.cts
+¦       ¦   ¦       az.cjs
+¦       ¦   ¦       az.d.cts
+¦       ¦   ¦       be.cjs
+¦       ¦   ¦       be.d.cts
+¦       ¦   ¦       ca.cjs
+¦       ¦   ¦       ca.d.cts
+¦       ¦   ¦       cs.cjs
+¦       ¦   ¦       cs.d.cts
+¦       ¦   ¦       de.cjs
+¦       ¦   ¦       de.d.cts
+¦       ¦   ¦       en.cjs
+¦       ¦   ¦       en.d.cts
+¦       ¦   ¦       eo.cjs
+¦       ¦   ¦       eo.d.cts
+¦       ¦   ¦       es.cjs
+¦       ¦   ¦       es.d.cts
+¦       ¦   ¦       fa.cjs
+¦       ¦   ¦       fa.d.cts
+¦       ¦   ¦       fi.cjs
+¦       ¦   ¦       fi.d.cts
+¦       ¦   ¦       fr-CA.cjs
+¦       ¦   ¦       fr-CA.d.cts
+¦       ¦   ¦       fr.cjs
+¦       ¦   ¦       fr.d.cts
+¦       ¦   ¦       he.cjs
+¦       ¦   ¦       he.d.cts
+¦       ¦   ¦       hu.cjs
+¦       ¦   ¦       hu.d.cts
+¦       ¦   ¦       id.cjs
+¦       ¦   ¦       id.d.cts
+¦       ¦   ¦       index.cjs
+¦       ¦   ¦       index.d.cts
+¦       ¦   ¦       it.cjs
+¦       ¦   ¦       it.d.cts
+¦       ¦   ¦       ja.cjs
+¦       ¦   ¦       ja.d.cts
+¦       ¦   ¦       kh.cjs
+¦       ¦   ¦       kh.d.cts
+¦       ¦   ¦       ko.cjs
+¦       ¦   ¦       ko.d.cts
+¦       ¦   ¦       mk.cjs
+¦       ¦   ¦       mk.d.cts
+¦       ¦   ¦       ms.cjs
+¦       ¦   ¦       ms.d.cts
+¦       ¦   ¦       nl.cjs
+¦       ¦   ¦       nl.d.cts
+¦       ¦   ¦       no.cjs
+¦       ¦   ¦       no.d.cts
+¦       ¦   ¦       ota.cjs
+¦       ¦   ¦       ota.d.cts
+¦       ¦   ¦       pl.cjs
+¦       ¦   ¦       pl.d.cts
+¦       ¦   ¦       ps.cjs
+¦       ¦   ¦       ps.d.cts
+¦       ¦   ¦       pt.cjs
+¦       ¦   ¦       pt.d.cts
+¦       ¦   ¦       ru.cjs
+¦       ¦   ¦       ru.d.cts
+¦       ¦   ¦       sl.cjs
+¦       ¦   ¦       sl.d.cts
+¦       ¦   ¦       sv.cjs
+¦       ¦   ¦       sv.d.cts
+¦       ¦   ¦       ta.cjs
+¦       ¦   ¦       ta.d.cts
+¦       ¦   ¦       th.cjs
+¦       ¦   ¦       th.d.cts
+¦       ¦   ¦       tr.cjs
+¦       ¦   ¦       tr.d.cts
+¦       ¦   ¦       ua.cjs
+¦       ¦   ¦       ua.d.cts
+¦       ¦   ¦       ur.cjs
+¦       ¦   ¦       ur.d.cts
+¦       ¦   ¦       vi.cjs
+¦       ¦   ¦       vi.d.cts
+¦       ¦   ¦       zh-CN.cjs
+¦       ¦   ¦       zh-CN.d.cts
+¦       ¦   ¦       zh-TW.cjs
+¦       ¦   ¦       zh-TW.d.cts
+¦       ¦   ¦       
+¦       ¦   +---mini
+¦       ¦           checks.cjs
+¦       ¦           checks.d.cts
+¦       ¦           coerce.cjs
+¦       ¦           coerce.d.cts
+¦       ¦           external.cjs
+¦       ¦           external.d.cts
+¦       ¦           index.cjs
+¦       ¦           index.d.cts
+¦       ¦           iso.cjs
+¦       ¦           iso.d.cts
+¦       ¦           parse.cjs
+¦       ¦           parse.d.cts
+¦       ¦           schemas.cjs
+¦       ¦           schemas.d.cts
+¦       ¦           
+¦       +---v4-mini
+¦               index.cjs
+¦               index.d.cts
+¦               
++---src
+¦   ¦   app.ts
+¦   ¦   cli.ts
+¦   ¦   config.ts
+¦   ¦   google-ocr.ts
+¦   ¦   server.ts
+¦   ¦   
+¦   +---cloud
+¦   ¦       cloudOCR.ts
+¦   ¦       uploadToGCS.ts
+¦   ¦       
+¦   +---fhir
+¦   ¦       convertPdfToImage.ts
+¦   ¦       
+¦   +---llm
+¦   ¦       mapToFHIR.ts
+¦   ¦       
+¦   +---middleware
+¦   ¦       auth.ts
+¦   ¦       authenticate.ts
+¦   ¦       
+¦   +---processors
+¦   ¦       eFaxProcessor.ts
+¦   ¦       
+¦   +---routes
+¦   ¦       upload.ts
+¦   ¦       
+¦   +---tests
+¦   ¦       fhir-output.json
+¦   ¦       test-api-key.ts
+¦   ¦       test-ocr.ts
+¦   ¦       test-upload.ts
+¦   ¦       testClaude.ts
+¦   ¦       
+¦   +---types
+¦   ¦       index.ts
+¦   ¦       
+¦   +---utils
+¦           claudeClient.ts
+¦           document-validator.d.ts.map
+¦           file-utils.d.ts.map
+¦           file-utils.ts
+¦           
++---temp
++---test
+¦   +---data
+¦           05-versions-space.pdf
+¦           
++---tests
+    +---test-files
+            converted_output.tiff
+            converted_output.xml
+            Filled_Sample 1.json
+            Filled_Sample 1.pdf
+            Filled_Sample 34.pdf
+            Filled_Sample 42.pdf
+            WRF.jpg
+            WRF.pdf
+            

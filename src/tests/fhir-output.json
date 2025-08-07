@@ -1,0 +1,111 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [
+          {
+            "system": "http://example.org/patient-identifier",
+            "value": "001192-SN"
+          }
+        ],
+        "name": [
+          {
+            "text": "Waldo Rabie"
+          }
+        ],
+        "birthDate": "1994-03-10"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "1184156358"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jennifer Otterbacher",
+            "given": [
+              "Jennifer"
+            ],
+            "family": "Otterbacher"
+          }
+        ],
+        "qualifications": [
+          {
+            "code": {
+              "text": "Doctor of Osteopathic Medicine"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "name": "Community Physicians of Yellow Springs",
+        "address": [
+          {
+            "line": [
+              "888 Dayton Street, Suite-200"
+            ],
+            "city": "Yellow Springs",
+            "state": "OH",
+            "postalCode": "45314"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(937) 767-7291"
+          },
+          {
+            "system": "fax",
+            "value": "(937) 767-1302"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "status": "active",
+        "intent": "order",
+        "code": {
+          "text": "Endocrinology Referral"
+        },
+        "subject": {
+          "reference": "Patient/1"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/1"
+          }
+        ],
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "low testosterone",
+                "display": "Low Testosterone"
+              },
+              {
+                "code": "type1diabetes",
+                "display": "Type 1 Diabetes"
+              }
+            ]
+          }
+        ],
+        "performerType": {
+          "text": "Endocrinology"
+        }
+      }
+    }
+  ]
+}
